@@ -1,5 +1,6 @@
 library("plumber")
 library("DALEX")
+library("ingredients")
 library("randomForest")
 
 #* @apiTitle API for Titanic Survival Model. Use either predict / break_down / ceteris_paribus hooks
@@ -14,7 +15,7 @@ library("randomForest")
 #* @param fare passenger fare. X if missing
 #* @param embarked passenger embarked. X if missing. One of ("Belfast", "Cherbourg", "Queenstown", "Southampton")
 #* @get /predict
-#* @post /Predict
+#* @post /predict
 function(req, class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fare = "X",
   embarked = "X") {
 
@@ -133,6 +134,8 @@ function(req, variable = "age", class = "X", gender = "X", age = "X", sibsp = "X
 
   load("explain_titanic_rf.rda")
 
-  vr_embarked  <- variable_response(explain_titanic_rf, variable =  variable)
-  print(plot(vr_embarked))
+  cp_titanic_rf <- ceteris_paribus(explain_titanic_rf, new_passanger, 
+                            variables = variable)
+
+  print(plot(cp_titanic_rf) + show_observations(new_passanger, variables = variable))
 }
