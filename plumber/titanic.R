@@ -14,7 +14,7 @@ library("randomForest")
 #* @param fare passenger fare. X if missing
 #* @param embarked passenger embarked. X if missing. One of ("Belfast", "Cherbourg", "Queenstown", "Southampton")
 #* @get /predict
-#* @post /predict
+#* @post /Predict
 function(req, class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fare = "X",
   embarked = "X") {
 
