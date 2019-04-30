@@ -1,7 +1,57 @@
 library("plumber")
 library("DALEX")
 library("ingredients")
+library("iBreakDown")
 library("randomForest")
+
+get_observation <- function(class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fare = "X",
+                            embarked = "X") {
+  class_ok <- c("1st", "2nd", "3rd", "deck crew", "engineering crew", "restaurant staff", "victualling crew")
+  gender_ok <- c("female", "male")
+  embarked_ok <- c("Belfast", "Cherbourg", "Queenstown", "Southampton")
+
+  new_passanger <- data.frame(
+    class = factor("1st", levels = class_ok),
+    gender = factor("male", levels = gender_ok),
+    age = 8,
+    sibsp = 0,
+    parch = 0,
+    fare = 72,
+    embarked = factor("Southampton", levels = embarked_ok)
+  )
+  subtitle = ""
+  if (class != "X" & class %in% class_ok) {
+    new_passanger$class <- factor(class, levels = class_ok)
+    subtitle <- paste(subtitle, "  class:", class)
+  }
+  if (gender != "X" & gender %in% gender_ok) {
+    new_passanger$gender <- factor(gender, levels = gender_ok)
+    subtitle <- paste(subtitle, "  gender:", gender)
+  }
+  if (age != "X") {
+    new_passanger$age <- as.numeric(as.character(age))
+    subtitle <- paste(subtitle, "  age:", age)
+  }
+  if (sibsp != "X") {
+    new_passanger$sibsp <- as.numeric(as.character(sibsp))
+    subtitle <- paste(subtitle, "  sibsp:", sibsp)
+  }
+  if (parch != "X") {
+    new_passanger$parch <- as.numeric(as.character(parch))
+    subtitle <- paste(subtitle, "  parch:", parch)
+  }
+  if (fare != "X") {
+    new_passanger$fare <- as.numeric(as.character(fare))
+    subtitle <- paste(subtitle, "  fare:", fare)
+  }
+  if (embarked != "X" & embarked %in% embarked_ok) {
+    new_passanger$embarked <- factor(embarked, levels = embarked_ok)
+    subtitle <- paste(subtitle, "  embarked:", embarked)
+  }
+
+  list(new_passanger = new_passanger,
+       subtitle = subtitle)
+}
 
 #* @apiTitle API for Titanic Survival Model. Use either predict / break_down / ceteris_paribus hooks
 
@@ -19,26 +69,8 @@ library("randomForest")
 function(req, class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fare = "X",
   embarked = "X") {
 
-  class_ok <- c("1st", "2nd", "3rd", "deck crew", "engineering crew", "restaurant staff", "victualling crew")
-  gender_ok <- c("female", "male")
-  embarked_ok <- c("Belfast", "Cherbourg", "Queenstown", "Southampton")
-
-  new_passanger <- data.frame(
-    class = factor("1st", levels = class_ok),
-    gender = factor("male", levels = gender_ok),
-    age = 8,
-    sibsp = 0,
-    parch = 0,
-    fare = 72,
-    embarked = factor("Southampton", levels = embarked_ok)
-  )
-  if (class != "X" & class %in% class_ok) new_passanger$class <- class
-  if (gender != "X" & gender %in% gender_ok) new_passanger$gender <- gender
-  if (age != "X") new_passanger$age <- age
-  if (sibsp != "X") new_passanger$sibsp <- sibsp
-  if (parch != "X") new_passanger$parch <- parch
-  if (fare != "X") new_passanger$fare <- fare
-  if (embarked != "X" & embarked %in% embarked_ok) new_passanger$embarked <- embarked
+  tmp <- get_observation(class, gender, age, sibsp, parch, fare, embarked)
+  new_passanger <- tmp$new_passanger
 
   load("explain_titanic_rf.rda")
   pr <- predict(explain_titanic_rf, new_passanger)
@@ -67,31 +99,14 @@ function(req, class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fa
 function(req, class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fare = "X",
   embarked = "X") {
 
-  class_ok <- c("1st", "2nd", "3rd", "deck crew", "engineering crew", "restaurant staff", "victualling crew")
-  gender_ok <- c("female", "male")
-  embarked_ok <- c("Belfast", "Cherbourg", "Queenstown", "Southampton")
-
-  new_passanger <- data.frame(
-    class = factor("1st", levels = class_ok),
-    gender = factor("male", levels = gender_ok),
-    age = 8,
-    sibsp = 0,
-    parch = 0,
-    fare = 72,
-    embarked = factor("Southampton", levels = embarked_ok)
-  )
-  if (class != "X" & class %in% class_ok) new_passanger$class <- class
-  if (gender != "X" & gender %in% gender_ok) new_passanger$gender <- gender
-  if (age != "X") new_passanger$age <- age
-  if (sibsp != "X") new_passanger$sibsp <- sibsp
-  if (parch != "X") new_passanger$parch <- parch
-  if (fare != "X") new_passanger$fare <- fare
-  if (embarked != "X" & embarked %in% embarked_ok) new_passanger$embarked <- embarked
+  tmp <- get_observation(class, gender, age, sibsp, parch, fare, embarked)
+  new_passanger <- tmp$new_passanger
+  subtitle <- tmp$subtitle
 
   load("explain_titanic_rf.rda")
 
   sp_rf <- single_prediction(explain_titanic_rf, new_passanger)
-  print(plot(sp_rf))
+  print(plot(sp_rf) + ggtitle("What influences the survival?", subtitle))
 }
 
 
@@ -111,48 +126,9 @@ function(req, class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fa
 function(req, variable = "age", class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fare = "X",
   embarked = "X") {
 
-  class_ok <- c("1st", "2nd", "3rd", "deck crew", "engineering crew", "restaurant staff", "victualling crew")
-  gender_ok <- c("female", "male")
-  embarked_ok <- c("Belfast", "Cherbourg", "Queenstown", "Southampton")
-
-  new_passanger <- data.frame(
-    class = factor("1st", levels = class_ok),
-    gender = factor("male", levels = gender_ok),
-    age = 8,
-    sibsp = 0,
-    parch = 0,
-    fare = 72,
-    embarked = factor("Southampton", levels = embarked_ok)
-  )
-  subtitle = ""
-  if (class != "X" & class %in% class_ok) {
-    new_passanger$class <- factor(class, levels = class_ok)
-    subtitle <- paste(subtitle, ", class:", class)
-    }
-  if (gender != "X" & gender %in% gender_ok) {
-    new_passanger$gender <- factor(gender, levels = gender_ok)
-    subtitle <- paste(subtitle, ", gender:", gender)
-  }
-  if (age != "X") {
-    new_passanger$age <- as.numeric(as.character(age))
-    subtitle <- paste(subtitle, ", age:", age)
-  }
-  if (sibsp != "X") {
-    new_passanger$sibsp <- as.numeric(as.character(sibsp))
-    subtitle <- paste(subtitle, ", sibsp:", sibsp)
-  }
-  if (parch != "X") {
-    new_passanger$parch <- as.numeric(as.character(parch))
-    subtitle <- paste(subtitle, ", parch:", parch)
-  }
-  if (fare != "X") {
-    new_passanger$fare <- as.numeric(as.character(fare))
-    subtitle <- paste(subtitle, ", fare:", fare)
-  }
-  if (embarked != "X" & embarked %in% embarked_ok) {
-    new_passanger$embarked <- factor(embarked, levels = embarked_ok)
-    subtitle <- paste(subtitle, ", embarked:", embarked)
-  }
+  tmp <- get_observation(class, gender, age, sibsp, parch, fare, embarked)
+  new_passanger <- tmp$new_passanger
+  subtitle <- tmp$subtitle
 
   load("explain_titanic_rf.rda")
 
