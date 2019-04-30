@@ -95,7 +95,7 @@ function(req, class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fa
 #* @param embarked passenger embarked. X if missing. One of ("Belfast", "Cherbourg", "Queenstown", "Southampton")
 #* @get /break_down
 #* @post /break_down
-#* @png
+#* @png (width = 400, height = 250)
 function(req, class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fare = "X",
   embarked = "X") {
 
@@ -106,10 +106,13 @@ function(req, class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fa
   load("explain_titanic_rf.rda")
 
   order <- c("class", "age", "gender", "fare", "sibsp", "parch", "embarked")
-  order <- intersect(order, c(strsplit(subtitle, split = "[^A-Za-z0-9]")[[1]], variable))
+  order <- intersect(order, c(strsplit(subtitle, split = "[^A-Za-z0-9]")[[1]]))
+  if (length(order) < 1)  order <- "age"
   sp_rf <- break_down(explain_titanic_rf, new_passanger,
-                      order = c("class", "age", "gender", "fare", "sibsp", "parch", "embarked"))
-  print(plot(sp_rf) + ggtitle("What influences the survival?", subtitle))
+                      order = order)
+  sp_rf[nrow(sp_rf),c("contribution", "cummulative")] = sp_rf[nrow(sp_rf)-1,"cummulative"]
+  print(plot(sp_rf) +
+          ggtitle("What influences the survival?", subtitle))
 }
 
 
@@ -125,7 +128,7 @@ function(req, class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fa
 #* @param embarked passenger embarked. X if missing. One of ("Belfast", "Cherbourg", "Queenstown", "Southampton")
 #* @get /ceteris_paribus
 #* @post /ceteris_paribus
-#* @png
+#* @png (width = 400, height = 250)
 function(req, variable = "age", class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fare = "X",
   embarked = "X") {
 
