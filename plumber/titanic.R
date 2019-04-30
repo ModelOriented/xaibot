@@ -105,7 +105,10 @@ function(req, class = "X", gender = "X", age = "X", sibsp = "X", parch = "X", fa
 
   load("explain_titanic_rf.rda")
 
-  sp_rf <- single_prediction(explain_titanic_rf, new_passanger)
+  order <- c("class", "age", "gender", "fare", "sibsp", "parch", "embarked")
+  order <- intersect(order, c(strsplit(subtitle, split = "[^A-Za-z0-9]")[[1]], variable))
+  sp_rf <- break_down(explain_titanic_rf, new_passanger,
+                      order = c("class", "age", "gender", "fare", "sibsp", "parch", "embarked"))
   print(plot(sp_rf) + ggtitle("What influences the survival?", subtitle))
 }
 

@@ -14,3 +14,6 @@ pmodel <- plumb("titanic.R")
 pmodel$run(host = "0.0.0.0", port = 8787)
 ```
 
+## Try it out
+
+Find a demo here: http://52.31.27.158:8787/__swagger__/
