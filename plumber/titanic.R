@@ -124,31 +124,60 @@ function(req, variable = "age", class = "X", gender = "X", age = "X", sibsp = "X
     fare = 72,
     embarked = factor("Southampton", levels = embarked_ok)
   )
-  if (class != "X" & class %in% class_ok) new_passanger$class <- factor(class, levels = class_ok)
-  if (gender != "X" & gender %in% gender_ok) new_passanger$gender <- factor(gender, levels = gender_ok)
-  if (age != "X") new_passanger$age <- as.numeric(as.character(age))
-  if (sibsp != "X") new_passanger$sibsp <- as.numeric(as.character(sibsp))
-  if (parch != "X") new_passanger$parch <- as.numeric(as.character(parch))
-  if (fare != "X") new_passanger$fare <- as.numeric(as.character(fare))
-  if (embarked != "X" & embarked %in% embarked_ok) new_passanger$embarked <- factor(embarked, levels = embarked_ok)
+  subtitle = ""
+  if (class != "X" & class %in% class_ok) {
+    new_passanger$class <- factor(class, levels = class_ok)
+    subtitle <- paste(subtitle, ", class:", class)
+    }
+  if (gender != "X" & gender %in% gender_ok) {
+    new_passanger$gender <- factor(gender, levels = gender_ok)
+    subtitle <- paste(subtitle, ", gender:", gender)
+  }
+  if (age != "X") {
+    new_passanger$age <- as.numeric(as.character(age))
+    subtitle <- paste(subtitle, ", age:", age)
+  }
+  if (sibsp != "X") {
+    new_passanger$sibsp <- as.numeric(as.character(sibsp))
+    subtitle <- paste(subtitle, ", sibsp:", sibsp)
+  }
+  if (parch != "X") {
+    new_passanger$parch <- as.numeric(as.character(parch))
+    subtitle <- paste(subtitle, ", parch:", parch)
+  }
+  if (fare != "X") {
+    new_passanger$fare <- as.numeric(as.character(fare))
+    subtitle <- paste(subtitle, ", fare:", fare)
+  }
+  if (embarked != "X" & embarked %in% embarked_ok) {
+    new_passanger$embarked <- factor(embarked, levels = embarked_ok)
+    subtitle <- paste(subtitle, ", embarked:", embarked)
+  }
 
   load("explain_titanic_rf.rda")
 
-  grids = list()
-  grids[[variable]] = sort(unique(explain_titanic_rf$data[,variable]))
-  cp_titanic_rf <- ceteris_paribus(explain_titanic_rf, new_passanger,
-                            variables = variable, variable_splits = grids)
+  if (!(variable %in% c("age", "sibsp", "parch", "fare", "class", "gender", "embarked"))) {
+    variable = "age"
+  }
 
   if (variable %in% c("age", "sibsp", "parch", "fare")) {
+    grids = list()
+    grids[[variable]] = sort(unique(explain_titanic_rf$data[,variable]))
+    cp_titanic_rf <- ceteris_paribus(explain_titanic_rf, new_passanger,
+                                     variables = variable, variable_splits = grids)
     pl <- plot(cp_titanic_rf) +
             show_observations(cp_titanic_rf, variables = variable, size = 5) +
             ylab("survival probability") +
-            ggtitle("Keeping everything else constant...")
+            ggtitle("Keeping everything else constant...", subtitle)
   }
   if (variable %in% c("class", "gender", "embarked")) {
+    grids = list()
+    grids[[variable]] = sort(unique(explain_titanic_rf$data[,variable]))
+    cp_titanic_rf <- ceteris_paribus(explain_titanic_rf, new_passanger,
+                                     variables = variable, variable_splits = grids)
     pl <- plot(cp_titanic_rf, only_numerical = FALSE) +
             ylab("survival probability") +
-            ggtitle("Keeping everything else constant...")
+            ggtitle("Keeping everything else constant...", subtitle)
   }
 
   print(pl)
