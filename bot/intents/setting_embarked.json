@@ -1,0 +1,31 @@
+{
+  "id": "596bc03e-d533-4cfe-82d1-d957b3809cf8",
+  "name": "setting_embarked",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2073da15-3cf0-4ae4-980f-bcb4a3f2fadd",
+          "required": false,
+          "dataType": "@embarkment_place",
+          "name": "embarkment_place",
+          "value": "$embarkment_place",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

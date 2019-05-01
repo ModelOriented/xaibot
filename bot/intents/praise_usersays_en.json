@@ -1,0 +1,135 @@
+[
+  {
+    "id": "35082b94-608a-4922-bd5c-d563463e9bc3",
+    "data": [
+      {
+        "text": "I see you are great!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "01c3babc-bc4c-4062-a60f-06846707fb47",
+    "data": [
+      {
+        "text": "I love you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "33c1fd69-15e2-4184-a590-7616a45bd768",
+    "data": [
+      {
+        "text": "Wonderful chatbot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "46a1af71-9575-413a-9879-5943a1e0591e",
+    "data": [
+      {
+        "text": "You\u0027re fantastic",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "82dffeb9-b73a-48f6-8ab5-51c9ba46aa3e",
+    "data": [
+      {
+        "text": "You are great!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4816747d-0e98-4061-9fe7-83f4771349ab",
+    "data": [
+      {
+        "text": "I like talking to you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "affaf462-094e-45d1-b41c-3b7410e51038",
+    "data": [
+      {
+        "text": "Good bot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "46e66add-475c-41db-ae30-c9dcb98aa309",
+    "data": [
+      {
+        "text": "You are very nice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "494a7973-45c7-482a-8938-e25c7a47c3b3",
+    "data": [
+      {
+        "text": "Thank you so much!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d8d882fc-9c46-4014-a2c6-d05206cd8601",
+    "data": [
+      {
+        "text": "I like you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b5c09107-3038-4dd1-a0ff-d7a4602307c0",
+    "data": [
+      {
+        "text": "You are very smart",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "812dd01a-c7ac-4f64-aabc-5abcf2d5ea0e",
+    "data": [
+      {
+        "text": "You\u0027re a clever bot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

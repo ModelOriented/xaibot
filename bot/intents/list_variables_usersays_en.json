@@ -1,0 +1,222 @@
+[
+  {
+    "id": "08688f2d-0b9f-49a4-b302-b54f56ac51b4",
+    "data": [
+      {
+        "text": "More...",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "39bf5632-ff40-4aa1-af34-ca1808e7e049",
+    "data": [
+      {
+        "text": "print all attributes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "09953585-7879-4f72-b206-3d6fdb9348d6",
+    "data": [
+      {
+        "text": "all possible features",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b0534d8a-bad5-4afe-8e83-9045b64c524e",
+    "data": [
+      {
+        "text": "variables to specify",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1bad3e14-ec5f-47e2-9b37-c2f548dc7074",
+    "data": [
+      {
+        "text": "What details can I specify?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4d7cc5c7-1b47-4fca-bd39-71adace6a74b",
+    "data": [
+      {
+        "text": "What sort of information I can give?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "96725f45-e5f7-4803-8cf8-ca0e280057de",
+    "data": [
+      {
+        "text": "What are the passenger\u0027s parameters?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "856490b9-de41-4f12-9b1a-9f79915d0250",
+    "data": [
+      {
+        "text": "What parameters I can give?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f9622eb3-f88d-48b3-925d-bf9d4e9b9231",
+    "data": [
+      {
+        "text": "What values can I set?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e8b5dd5d-187d-422b-ab27-bc6fa6e1c2af",
+    "data": [
+      {
+        "text": "Print all features",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "993f986e-37ee-4c40-8b1a-5db8ca27f8ce",
+    "data": [
+      {
+        "text": "What are the attributes?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0f9a8b4d-7972-4819-b7f6-a3a949b6e264",
+    "data": [
+      {
+        "text": "I want to know all variables",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d1e261e5-f004-4686-8f6f-77476f346df8",
+    "data": [
+      {
+        "text": "What features are there?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8eab6e52-d86a-40dc-b773-38ad4816f9dd",
+    "data": [
+      {
+        "text": "What features I can set?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5a427c76-22e9-40ba-a10a-1799a5a3b7f5",
+    "data": [
+      {
+        "text": "List variables",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "052e8767-7a00-406d-863a-b44c4853f4bf",
+    "data": [
+      {
+        "text": "What variables we have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2b638f8f-c3e8-42ab-a742-198489ca6ccf",
+    "data": [
+      {
+        "text": "What is the list of the variables?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bf8c554f-89fa-46fb-a158-4ebc3d857b29",
+    "data": [
+      {
+        "text": "List all features",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8e7afd1d-fdee-47d7-aaca-6b30875603ee",
+    "data": [
+      {
+        "text": "List all available features",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "063c3bca-98c2-4fdf-ba9b-91b328d73e15",
+    "data": [
+      {
+        "text": "What variables are there?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

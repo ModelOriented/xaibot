@@ -1,0 +1,9 @@
+{
+  "id": "76d4bfa4-2547-4c57-a970-71c8957a3488",
+  "name": "embarkment_place",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

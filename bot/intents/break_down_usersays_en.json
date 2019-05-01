@@ -1,0 +1,286 @@
+[
+  {
+    "id": "c86ff58d-c019-4038-8313-1751246190fc",
+    "data": [
+      {
+        "text": "Why they are so low",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "09ef7da5-7300-46c6-9c4a-ed69dfe27693",
+    "data": [
+      {
+        "text": "How it is possible?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b3d06dca-a629-40cb-89e3-828755792b29",
+    "data": [
+      {
+        "text": "How you have calculated these chances ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "e0acfaf7-2adc-4b5e-9e06-d65f48fb5a6f",
+    "data": [
+      {
+        "text": "What is the break down of my survival odds?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b292f63b-a7b5-4598-ad2f-e454c7e86d9e",
+    "data": [
+      {
+        "text": "Why I have survived?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "003c21c5-bd87-4f18-b988-d02721bdd11f",
+    "data": [
+      {
+        "text": "What made me die?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "70e8a1eb-4a0f-48f4-8776-fe42dee84600",
+    "data": [
+      {
+        "text": "What was crucial here?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e3fa1467-b5a7-4640-94a5-3a7eaa8380ae",
+    "data": [
+      {
+        "text": "What is the reason for this?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ac940d0f-c20a-4b3f-9ef7-1efbb32426d4",
+    "data": [
+      {
+        "text": "Which variable contributes the most to the result",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9c3e2197-98fa-4823-b1b0-aef229a859b7",
+    "data": [
+      {
+        "text": "Which attribute is most important?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3a6c4751-eb82-4d06-a157-e86e65619560",
+    "data": [
+      {
+        "text": "Why?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9bebe88b-a15c-4209-aead-60f638e3e39b",
+    "data": [
+      {
+        "text": "Why my chance of survival is ",
+        "userDefined": false
+      },
+      {
+        "text": "0.1?",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0cf96f27-b2f8-4ad5-ae8f-3f6c682f6429",
+    "data": [
+      {
+        "text": "Why my chance of survival is so high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cb0ffed0-6c06-4f8c-b4dc-5a26e7cfbbbe",
+    "data": [
+      {
+        "text": "Break down the result by variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "69b7fb7d-2f84-4c22-8e48-849e8d1d7261",
+    "data": [
+      {
+        "text": "Break down the prediction into features",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b21f1a72-8873-453e-9291-8a57a80d8018",
+    "data": [
+      {
+        "text": "Why do I survive",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "71a9ebdf-723c-425d-8fde-eabca6275796",
+    "data": [
+      {
+        "text": "Why do I die",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b558a264-97c6-4dac-93ca-6dbbc6d3fde8",
+    "data": [
+      {
+        "text": "Which variable influenced the prediction most",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4a61ab8e-5f8c-43da-b79b-fbf5efdbe4a5",
+    "data": [
+      {
+        "text": "Feature importances",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1b09b9a5-5247-49c8-8f10-82ffe360b583",
+    "data": [
+      {
+        "text": "Variables contributions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "524d75c3-7724-4b94-88c8-0e042e8d2f88",
+    "data": [
+      {
+        "text": "Which variable contributes most to the result",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b9e30f83-7e8e-4679-9331-81bfa2b97402",
+    "data": [
+      {
+        "text": "What are the variables contributions?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "da92e50f-994c-4622-909c-6d25fa4c706c",
+    "data": [
+      {
+        "text": "What variables are most relevant?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "784f9d83-6ff4-4a04-971f-8dc994e46c9f",
+    "data": [
+      {
+        "text": "Which features are important?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "edee6be1-b56e-4a5e-8724-977924702bea",
+    "data": [
+      {
+        "text": "What are the feature importances?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

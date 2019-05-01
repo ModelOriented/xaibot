@@ -1,0 +1,56 @@
+[
+  {
+    "value": "1st",
+    "synonyms": [
+      "first",
+      "first class",
+      "1st",
+      "1st class",
+      "1 class"
+    ]
+  },
+  {
+    "value": "2nd",
+    "synonyms": [
+      "second",
+      "second class",
+      "2nd",
+      "2nd class",
+      "2 class"
+    ]
+  },
+  {
+    "value": "3rd",
+    "synonyms": [
+      "third",
+      "third class",
+      "3rd class",
+      "3rd",
+      "3 class"
+    ]
+  },
+  {
+    "value": "deck crew",
+    "synonyms": [
+      "deck crew"
+    ]
+  },
+  {
+    "value": "engineering crew",
+    "synonyms": [
+      "engineering crew"
+    ]
+  },
+  {
+    "value": "victualling crew",
+    "synonyms": [
+      "victualling crew"
+    ]
+  },
+  {
+    "value": "restaurant staff",
+    "synonyms": [
+      "restaurant staff"
+    ]
+  }
+]

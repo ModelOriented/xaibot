@@ -1,0 +1,88 @@
+[
+  {
+    "value": "gender",
+    "synonyms": [
+      "gender",
+      "sex",
+      "man",
+      "woman",
+      "male",
+      "female",
+      "women",
+      "genders",
+      "men",
+      "women",
+      "males",
+      "females"
+    ]
+  },
+  {
+    "value": "age",
+    "synonyms": [
+      "age",
+      "older",
+      "younger",
+      "teenage",
+      "child",
+      "kid"
+    ]
+  },
+  {
+    "value": "class",
+    "synonyms": [
+      "class",
+      "crew"
+    ]
+  },
+  {
+    "value": "embarked",
+    "synonyms": [
+      "embarked",
+      "place of embarkment",
+      "started",
+      "start"
+    ]
+  },
+  {
+    "value": "fare",
+    "synonyms": [
+      "fare",
+      "ticket price",
+      "ticket cost",
+      "ticket fare",
+      "pay",
+      "paid"
+    ]
+  },
+  {
+    "value": "sibsp",
+    "synonyms": [
+      "sibsp",
+      "sibling",
+      "brother",
+      "sister",
+      "wife",
+      "husband",
+      "partner",
+      "spouse"
+    ]
+  },
+  {
+    "value": "parch",
+    "synonyms": [
+      "parch",
+      "mother",
+      "father",
+      "child",
+      "son",
+      "daughter",
+      "alone",
+      "on my own",
+      "children",
+      "mom",
+      "dad",
+      "mommy",
+      "daddy"
+    ]
+  }
+]

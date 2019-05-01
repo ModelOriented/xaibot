@@ -1,0 +1,30 @@
+{
+  "id": "502248bb-ee98-41fa-a4e4-9769b84a45b4",
+  "name": "setting_class",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ec8571a8-ac76-402c-af49-704b1b6490df",
+          "required": false,
+          "dataType": "@class",
+          "name": "class",
+          "value": "$class",
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

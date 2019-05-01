@@ -1,0 +1,524 @@
+[
+  {
+    "id": "cec9fc97-f3b0-4fd3-ad47-b301111318aa",
+    "data": [
+      {
+        "text": "specify the ",
+        "userDefined": false
+      },
+      {
+        "text": "class",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c4f2dfc1-0a94-4ebd-87e5-6004aeb07724",
+    "data": [
+      {
+        "text": "set the ",
+        "userDefined": false
+      },
+      {
+        "text": "class",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "671668c6-4f27-4883-a096-eb504128f065",
+    "data": [
+      {
+        "text": "passenger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f963062c-8d05-49f4-895e-f48f4bd9406c",
+    "data": [
+      {
+        "text": "crew",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "236e6caf-abd8-4c82-bf99-121f30352627",
+    "data": [
+      {
+        "text": "deck crew",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3a40281a-c37c-47e3-9b68-f040e8f017a8",
+    "data": [
+      {
+        "text": "restaurant staff",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "15c32444-c287-4286-a592-ef9e4fd26447",
+    "data": [
+      {
+        "text": "engineering crew",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "557c58d6-311a-443f-b1ba-dfd207ad83d9",
+    "data": [
+      {
+        "text": "victualling crew",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5172f1bf-0dca-432e-8bc0-ccc740d70719",
+    "data": [
+      {
+        "text": "1st class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ad65ba19-57bd-458f-b668-30f0cbee4a30",
+    "data": [
+      {
+        "text": "I was part of the ",
+        "userDefined": false
+      },
+      {
+        "text": "victualling crew",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "369d2e78-05d5-4d5a-bd5a-23cb528f7e0f",
+    "data": [
+      {
+        "text": "Change the class into the ",
+        "userDefined": false
+      },
+      {
+        "text": "first",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "98eb264a-e3ca-47df-99b3-990e5177ccea",
+    "data": [
+      {
+        "text": "I want to change my class into ",
+        "userDefined": false
+      },
+      {
+        "text": "3rd",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cbc9adab-eb51-48e9-86b5-f0c49c086d76",
+    "data": [
+      {
+        "text": "It\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "3rd class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "52bd2fb5-8bb3-489a-a30d-7ed8d5ad0ed1",
+    "data": [
+      {
+        "text": "It\u0027s a ",
+        "userDefined": false
+      },
+      {
+        "text": "first class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": " ticket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "74ac3d26-dbf8-4c8a-96e3-1e6f29b941d4",
+    "data": [
+      {
+        "text": "I have a ",
+        "userDefined": false
+      },
+      {
+        "text": "first class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": " ticket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "495c8f19-2763-42e8-adfd-04e72ecee4f2",
+    "data": [
+      {
+        "text": "I had a ",
+        "userDefined": false
+      },
+      {
+        "text": "second class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": " ticket",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "39ba0fb6-3eb0-4d7b-bd7a-c7092c06f741",
+    "data": [
+      {
+        "text": "I travelled as an ",
+        "userDefined": false
+      },
+      {
+        "text": "engineering crew",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a39587e6-075f-4b07-9429-92e032ed0130",
+    "data": [
+      {
+        "text": "I was employed in the ",
+        "userDefined": false
+      },
+      {
+        "text": "restaurant staff",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2e7b2cd7-5eeb-4de2-b7e7-193b5251b66e",
+    "data": [
+      {
+        "text": "I worked as the ",
+        "userDefined": false
+      },
+      {
+        "text": "deck crew",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": " member",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "82ebc610-7076-4703-ba64-bd21f19830bc",
+    "data": [
+      {
+        "text": "I worked at the ",
+        "userDefined": false
+      },
+      {
+        "text": "restaurant staff",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d3d5f86e-15c4-493f-a6fd-46d7ff5b5bd2",
+    "data": [
+      {
+        "text": "I traveled in a ",
+        "userDefined": false
+      },
+      {
+        "text": "second class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "84c49bca-5048-41e4-a590-170f20225cdb",
+    "data": [
+      {
+        "text": "I was in ",
+        "userDefined": false
+      },
+      {
+        "text": "engineering crew",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7dd952bc-7225-459a-98ac-e3b2aed6cda1",
+    "data": [
+      {
+        "text": "I was at the ",
+        "userDefined": false
+      },
+      {
+        "text": "deck crew",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1a63a9ca-b0b1-49af-8276-c41ebeeaf4db",
+    "data": [
+      {
+        "text": "1 class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": " passenger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f9116b24-09fd-4ca1-8098-539ff993a52d",
+    "data": [
+      {
+        "text": "first class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": " passenger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5826e199-3468-4406-a880-68746439aa2e",
+    "data": [
+      {
+        "text": "second class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7b3b9aeb-9d7f-44eb-90a9-0596ee54c4d5",
+    "data": [
+      {
+        "text": "1st",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "76c26e52-a773-436f-a82d-cfc8306db4b2",
+    "data": [
+      {
+        "text": "3rd class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cae6995e-a45e-4440-b71d-4d5cd2147de4",
+    "data": [
+      {
+        "text": "I travelled with ",
+        "userDefined": false
+      },
+      {
+        "text": "1st class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "6f4e5374-261b-43c2-816e-5e58a62bd6d5",
+    "data": [
+      {
+        "text": "I\u0027m a ",
+        "userDefined": false
+      },
+      {
+        "text": "first class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": " passenger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e259e91f-3f9d-426e-84e4-919b6ddb809a",
+    "data": [
+      {
+        "text": "I was a ",
+        "userDefined": false
+      },
+      {
+        "text": "second class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": " passenger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5436c99e-e608-4eb4-9e78-bffb869b69f5",
+    "data": [
+      {
+        "text": "I traveled on ",
+        "userDefined": false
+      },
+      {
+        "text": "3rd class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

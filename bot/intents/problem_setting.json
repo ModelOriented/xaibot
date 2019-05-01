@@ -1,0 +1,27 @@
+{
+  "id": "8d860739-70fa-40f3-ae65-9e121a2940b9",
+  "name": "problem_setting",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "https://en.wikipedia.org/wiki/Passengers_of_the_RMS_Titanic"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

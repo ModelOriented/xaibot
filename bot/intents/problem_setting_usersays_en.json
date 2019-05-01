@@ -1,0 +1,90 @@
+[
+  {
+    "id": "a97b52dc-3fc1-46ee-8f70-fea3a2fa1d1c",
+    "data": [
+      {
+        "text": "What kind of dataset is this?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "02b8ff83-3b7b-43ae-9898-eab4a6dfb954",
+    "data": [
+      {
+        "text": "What problem do we solve here?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d3e38862-8886-4601-874d-44bd0b61e1ac",
+    "data": [
+      {
+        "text": "Problem description",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2821dba9-b7f0-4d5a-ae98-ec40e3ce7b0d",
+    "data": [
+      {
+        "text": "Describe the problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a44de975-2724-4824-bc9f-f22b1b02b967",
+    "data": [
+      {
+        "text": "What is this all about",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a212e0a5-4109-4879-9ec8-ee91dbd19059",
+    "data": [
+      {
+        "text": "Describe the background",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "171caa3e-972e-4da1-bae9-3be6cbb14887",
+    "data": [
+      {
+        "text": "What is the exact problem?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "16b874c0-2ec3-4671-a9b0-513140593136",
+    "data": [
+      {
+        "text": "What is the dataset?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

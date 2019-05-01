@@ -1,0 +1,42 @@
+{
+  "id": "9c3380f4-8187-4f2c-9aaf-aca79f3e5ba5",
+  "name": "explain_feature",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "16659d05-6b16-4acd-a408-b49959d6e94d",
+          "required": true,
+          "dataType": "@variable",
+          "name": "variable",
+          "value": "$variable",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Specify a variable name for which you want to know more details"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

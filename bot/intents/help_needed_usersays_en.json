@@ -1,0 +1,190 @@
+[
+  {
+    "id": "027d42ea-5281-40eb-99ce-395f96b5fc4c",
+    "data": [
+      {
+        "text": "How does this work?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fcd520d7-bf9b-4e8b-b1e0-26be7fd55b83",
+    "data": [
+      {
+        "text": "What is the next step?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1f2edffb-4090-4525-aa73-d2a7cb4b5553",
+    "data": [
+      {
+        "text": "What sorts of things can I make?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fc18622f-845e-4f56-84f3-87e70e6be8da",
+    "data": [
+      {
+        "text": "Tell me what to do",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fd7c8ede-3f37-470f-80ea-683de4164a3e",
+    "data": [
+      {
+        "text": "What actions I can take?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fb846663-cc4d-4860-aea1-01a54e14ef29",
+    "data": [
+      {
+        "text": "What is this for?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "62d742ae-f93c-4e2c-8d53-c361c3674627",
+    "data": [
+      {
+        "text": "What can I do here?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5e907c44-5647-4a6f-8ae2-1e0a9658b6a2",
+    "data": [
+      {
+        "text": "I don\u0027t understand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4ff09b83-c26a-4cca-8e19-5b1a71f63552",
+    "data": [
+      {
+        "text": "I\u0027m confused",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2bc3d8a8-3553-4935-8e79-881f5b027fde",
+    "data": [
+      {
+        "text": "I don\u0027t know what\u0027s going on here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c1233095-ddab-4a22-86ef-6803be08df81",
+    "data": [
+      {
+        "text": "Help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "68fff057-e0ad-42b2-86ff-087e2c2a4d91",
+    "data": [
+      {
+        "text": "Info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "abb8cf2a-4cef-4de0-a6ba-8559c352b1b0",
+    "data": [
+      {
+        "text": "Help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e55fe50d-5a80-49f7-aabe-2803c625b1c9",
+    "data": [
+      {
+        "text": "Can you help me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e65c225f-9234-4d64-8eaf-ae41ac239a87",
+    "data": [
+      {
+        "text": "What\u0027s going on?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1f23a361-20c6-4777-a56d-997b3cf79034",
+    "data": [
+      {
+        "text": "I\u0027m lost",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f752a2af-2f4d-437d-aa98-ecc7439c4ab4",
+    "data": [
+      {
+        "text": "I need help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

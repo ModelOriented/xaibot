@@ -1,0 +1,38 @@
+{
+  "id": "fdf75524-5942-42a3-aed2-00be9078cbda",
+  "name": "specify_sibsp",
+  "auto": true,
+  "contexts": [
+    "specify_sibsp"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a85483b0-01e5-4d8b-acbc-4533e1d6776d",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

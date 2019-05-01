@@ -1,0 +1,36 @@
+{
+  "id": "a98dc908-7321-48f6-ad41-cae626336a7a",
+  "name": "ceteris_paribus",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "71c54e8b-4221-4ecd-b4f9-1d554b22a8e9",
+          "required": false,
+          "dataType": "@variable",
+          "name": "variable",
+          "value": "$variable",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

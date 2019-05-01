@@ -1,0 +1,9 @@
+{
+  "id": "01ef8a6f-0334-46f6-b42d-d0ddfc3a092e",
+  "name": "gender",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

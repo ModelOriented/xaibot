@@ -1,0 +1,101 @@
+[
+  {
+    "id": "fae3f7eb-8cd7-4f3a-b048-ed6bd696bd72",
+    "data": [
+      {
+        "text": "What kind of algorithm is utilized in here?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e64ecc1e-6c8b-477c-8a9f-00100a144b1a",
+    "data": [
+      {
+        "text": "Do you use neural networks here?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4fc249a1-b6d5-4410-9a5e-290bc6283b6c",
+    "data": [
+      {
+        "text": "How this results are produced?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "50f40461-b29c-4048-95a5-7580fb649d23",
+    "data": [
+      {
+        "text": "How do you generate predictions?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f484070d-830f-41fd-ad67-0e6c96765e5e",
+    "data": [
+      {
+        "text": "What tools you use?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "854aad8a-029d-4756-9ee2-4207c2f9f31a",
+    "data": [
+      {
+        "text": "How do you predict the survival?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "af1881d7-139b-4422-b679-3a453ac9e030",
+    "data": [
+      {
+        "text": "Which Machine Learning model do you use?\u0027",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c20c3d34-23dd-4658-b69d-5c1013c80ca2",
+    "data": [
+      {
+        "text": "What is the algorithm?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "dabfec6d-3bf6-484c-b53c-6faf47cdf3eb",
+    "data": [
+      {
+        "text": "What is the model behind this?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

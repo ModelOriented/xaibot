@@ -1,0 +1,255 @@
+[
+  {
+    "id": "0c5dd780-2675-410a-95c0-f2baa67e6ddc",
+    "data": [
+      {
+        "text": "Passenger\u0027s information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "89f9f017-bddf-491b-9c0c-2956b4f4ead2",
+    "data": [
+      {
+        "text": "Personal data",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2baf3431-746a-4f26-aa2f-d9ff93086586",
+    "data": [
+      {
+        "text": "My details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d6f17222-3db3-4e05-9731-7eb2c7d5dac8",
+    "data": [
+      {
+        "text": "Reveal what you know about me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8127f8f0-b84a-4a54-a3c1-b898a3df5293",
+    "data": [
+      {
+        "text": "Describe myself",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4edd1ef5-e96b-42fb-8c69-c19b56ef0f7c",
+    "data": [
+      {
+        "text": "Describe me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "96e072b4-4daf-4fc1-ab84-ec8950c852c5",
+    "data": [
+      {
+        "text": "GDPR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1899b03f-854f-463e-865d-c41b7bb9af1f",
+    "data": [
+      {
+        "text": "My data",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f279c0ff-21d1-4559-96f4-efe40207d4bd",
+    "data": [
+      {
+        "text": "My information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "84c0a917-260b-41fa-a2f8-ec3da81dda42",
+    "data": [
+      {
+        "text": "Summary",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8d001bac-3ee1-471e-b710-c9e65b72b5bc",
+    "data": [
+      {
+        "text": "Summarize",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7d9cb561-5874-4846-99dc-68e03c97ab9e",
+    "data": [
+      {
+        "text": "What is already defined here?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1f848cbf-1d9b-4ccf-8b46-43746db4bd57",
+    "data": [
+      {
+        "text": "What information I already gave",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ed27617f-b28f-4adf-8ce3-7b2c70bcc9c4",
+    "data": [
+      {
+        "text": "Tell who I am",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "47d740aa-2d9f-4368-8e2e-b6896255187b",
+    "data": [
+      {
+        "text": "Myself",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "22d7301d-46ca-4304-b056-706b461d75ca",
+    "data": [
+      {
+        "text": "Summarize myself",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a3c87655-842a-46f1-9030-37a6297cd40c",
+    "data": [
+      {
+        "text": "What do we know so far?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "512545e7-f190-474a-b360-3c3b38d7bdb9",
+    "data": [
+      {
+        "text": "Tell me about me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7bf7588d-0e3d-47ed-b1e4-8639e6280b23",
+    "data": [
+      {
+        "text": "What is known about me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e0471811-3701-429b-949a-0af028eabd9e",
+    "data": [
+      {
+        "text": "What variables are known?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b3658b6f-d256-4761-87a1-9cf912a0b09c",
+    "data": [
+      {
+        "text": "What knowledge you have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cbdef9b4-ba08-444e-b02f-b06f630bd2b0",
+    "data": [
+      {
+        "text": "Who am I?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "860efbab-0eef-4619-b01e-e6fb27da94a5",
+    "data": [
+      {
+        "text": "What do you know about me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
