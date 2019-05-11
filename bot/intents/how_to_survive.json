@@ -1,15 +1,20 @@
 {
-  "id": "7c5d39d9-590c-44f3-8267-0ebe2c2883ed",
-  "name": "Default Welcome Intent",
+  "id": "7332954f-4ecf-4bc1-955f-62f584144738",
+  "name": "how_to_survive",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
       "affectedContexts": [],
       "parameters": [],
-      "messages": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
       "defaultResponsePlatforms": {},
       "speech": []
     }

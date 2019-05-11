@@ -4,19 +4,19 @@
  
 const functions = require('firebase-functions');
 const {WebhookClient} = require('dialogflow-fulfillment');
-const {Card, Suggestion, Image} = require('dialogflow-fulfillment');
+const {Card, Suggestion, Image, Payload} = require('dialogflow-fulfillment');
 const storage_context = 'storage_context';
 const all_variables = ['age', 'gender', 'fare', 'class', 'parch', 'sibsp', 'embarked'];
 const http = require('http');
 const server_address = 'http://52.31.27.158:8787';
 const pretty_vars = {
- 	'age': 'age',
-  	'gender': 'gender',
-  	'fare': 'fare',
-  	'parch': 'number of parents/children',
-  	'sibsp': 'number of siblings/spouse',
-  	'embarked': 'place of embarkment',
-  	'class': 'class'
+ 	'age': 'Age',
+  	'gender': 'Gender',
+  	'fare': 'Fare',
+  	'parch': 'Number of parents/children',
+  	'sibsp': 'Number of siblings/spouse',
+  	'embarked': 'Place of embarkment',
+  	'class': 'Class'
 };
 
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
@@ -87,6 +87,11 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 
    function age(agent) {
      let age_val = JSON.stringify(parameters.number);
+     let age_num = parseInt(age_val);
+     if (age_num < 0) {
+       agent.add(`I don't really think you are ${age_val} years old. Tell me your real age.`);
+       return;
+     }
 	 set_var_value(agent, 'age', age_val);
      let params = formatted_parameters('age', age_val);
      return predict(agent, params);
@@ -195,7 +200,15 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     }
   }
 
-
+  function clear_variable(agent) {
+   let variable = parameters.variable;
+   console.log(variable);
+   set_var_value(agent, variable, 'X');
+   agent.add(`Variable ${variable} was cleared`);
+   agent.add(new Suggestion('passenger details'));
+   agent.add(new Suggestion('survival chance'));
+  }
+  
   function set_var_value(agent, variable, value, var2=null, val2=null) {
      let context_dict = {
        'name': storage_context,
@@ -208,6 +221,18 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
      	context_dict.parameters[var2] = val2; 
     }
     agent.setContext(context_dict);
+  }
+  
+  function set_multiple_var(agent, data_dict) {
+    let context_dict = {
+       'name': storage_context,
+       'lifespan': 100,
+       'parameters': {
+       }
+     };
+    Object.keys(data_dict).forEach(variable => context_dict.parameters[variable] = data_dict[variable]);
+    agent.setContext(context_dict);
+
   }
 
   
@@ -226,10 +251,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     	all_variables.forEach(variable => {
           		let val = get_var_value(agent, variable);
           		if (val === null || val == 'X' || val === undefined) {
-                 	agent.add(`Your ${pretty_vars[variable]} is not yet defined`);
+                 	agent.add(`${pretty_vars[variable]} is not defined`);
                 }
           		else {
-                 	agent.add(`Your ${pretty_vars[variable]} is ${val}`); 
+                 	agent.add(`${pretty_vars[variable]}: ${val}`); 
                 }
         	}
           );
@@ -286,9 +311,20 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
      agent.add(new Card({
        title: `Ceteris Paribus plot`,
         imageUrl: imageUrl,
-        text: `This plot illustrates how the prediction changes when ${variable} is changed and everything else is fixed`,
+        //text: `This plot illustrates how the prediction changes when ${variable} is changed and everything else is fixed`,
+        buttonText: `See larger plot`,
+        buttonUrl: imageUrl
     	})
   	);
+  }
+  
+  function how_to_survive(agent) {
+    parameters.variable = ["class"];
+    console.log(parameters);
+    // TODO more detailed analysis here
+    ceteris_paribus(agent);
+    agent.add(`Travelling in a different class might increase your survival chance`);
+    agent.add(`You might also ask what-if questions for other variables`);
   }
   
   function break_down(agent) {
@@ -301,6 +337,8 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
        title: `Break down plot`,
         imageUrl: imageUrl,
         text: `This chart illustrates the contribution of variables to the final prediction`,
+        buttonText: `See larger plot`,
+        buttonUrl: imageUrl
     	})
   	);
 
@@ -320,11 +358,18 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   
   function welcome(agent) {
     agent.add(`Hello! I'm DrAnt, a Titanic survival bot. Let's see whether you would've survived on Titanic and discuss the model predictions.`);
-	agent.add(`You can list variables, ask about their meanings and set values at any time.`);
-    agent.add(`Do not limit yourself. Ask anything you'd like to know. I learn from interactions like this!`);
-    agent.add(`Perhaps you want to start by filling up some values:`);
-    agent.add(new Suggestion(`list all variables`));
+	//agent.add(`You can list variables, ask about their meanings and set values at any time.`);
+    //agent.add(`Do not limit yourself. Ask anything you'd like to know. I learn from interactions like this!`);
+    agent.add(new Image(`https://upload.wikimedia.org/wikipedia/en/b/bb/Titanic_breaks_in_half.jpg`));
+    agent.add(`You might start by telling some details about you`);
+    agent.add(`List variables and ask about their meaning at any time:`);
+    agent.add(new Suggestion(`list variables`));
     agent.add(new Suggestion(`describe the problem`));
+    agent.add(`You might also start as Jack or Rose from the movie :)`);
+    agent.add(new Image(
+      `https://vignette.wikia.nocookie.net/jamescameronstitanic/images/b/b9/Roseandjack.jpg/revision/latest?cb=20110213201351`));
+    agent.add(new Suggestion('Jack'));
+    agent.add(new Suggestion('Rose'));
   }
   
   function restart(agent) {
@@ -333,8 +378,9 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   }
   
   function end_conversation(agent) {
-   	agent.add('Great talking to you! Come back later, as I will improve!');
-	all_variables.forEach(variable => set_var_value(agent, variable, 'X'));    
+   	agent.add('Bye :( Great talking to you! Come back later, as I will improve!');
+    agent.add(new Image(`https://vignette.wikia.nocookie.net/jamescameronstitanic/images/5/55/Jack_and_Rose-2.jpg/revision/latest?cb=20120405074438`));
+	agent.setContext({'name': storage_context, 'lifespan': '0'});
   }
   
   function help_needed(agent) {
@@ -342,12 +388,68 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     agent.add(new Suggestion(`describe the problem`));
     agent.add(new Suggestion(`what do you know about me?`));
   }
+  
+  function problem_setting(agent) {
+    let wiki_url = `https://en.wikipedia.org/wiki/Passengers_of_the_RMS_Titanic`;
+    let image_url = `https://natgeo.imgix.net/factsheets/thumbnails/RMSTitanic_TimelineofDisaster_Titanic.jpg?auto=compress,format&w=1024&h=560&fit=crop`;
+    agent.add(new Card({
+       	title: `Titanic disaster`,
+        imageUrl: image_url,
+        buttonText: `Read more...`,
+      	buttonUrl: wiki_url
+    	})
+  	);
+  }
+  
+  function jack_dawson(agent) {
+    let jack_dict = {
+      'age': '20',
+      'gender': 'male',
+      'embarked': 'Southampton',
+      'sibsp': '0',
+      'parch': '0',
+      'class': '3rd'
+    };
+    set_multiple_var(agent, jack_dict);
+    
+    let photo_url = `https://vignette.wikia.nocookie.net/jamescameronstitanic/images/e/ef/Untitledhgkjljlklk.png`;
+    agent.add(new Card({
+      	title: 'Jack Dawson',
+        imageUrl: photo_url,
+        text: `Jack has died from hypothermia`
+      }));
+    
+    agent.add(new Suggestion(`survival prediction`));
+    agent.add(new Suggestion(`passenger information`));
+    }
+  
+  function rose_dewitt(agent) {
+	let rose_dict = {
+      'age': '17',
+      'gender': 'female',
+      'embarked': 'Southampton',
+      'sibsp': '1',
+      'parch': '1',
+      'class': '1st'
+    };
+    set_multiple_var(agent, rose_dict);
+   	let photo_url = `https://vignette.wikia.nocookie.net/jamescameronstitanic/images/d/d3/Rosedewittbukater.jpg/revision/latest?cb=20120518041253`;
+    agent.add(new Card({
+      title: 'Rose DeWitt Bukater',
+      imageUrl: photo_url,
+      text: 'Rose survived the catastrophe'
+    }));
+    agent.add(new Suggestion(`survival prediction`));
+    agent.add(new Suggestion(`passenger information`));
+  }
 
   // Run the proper function handler based on the matched Dialogflow intent name
   let intentMap = new Map();
   intentMap.set('Default Welcome Intent', welcome);
   intentMap.set('Default Fallback Intent', fallback);
   
+  // general flow
+  intentMap.set('problem_setting', problem_setting);
   intentMap.set('explain_feature', explain_feature);
   intentMap.set('list_variables', list_variables);
   intentMap.set('end_conversation', end_conversation);
@@ -355,8 +457,11 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   intentMap.set('help_needed', help_needed);
   intentMap.set('current_knowledge', current_knowledge);
   intentMap.set('current_prediction', current_prediction);
+  
+  // telling info
   intentMap.set('specify_parch', specify_parch);
   intentMap.set('specify_sibsp', specify_sibsp);
+  intentMap.set('clear_variable', clear_variable);
   
   intentMap.set('telling_age', age);
   intentMap.set('telling_gender', gender);
@@ -367,9 +472,14 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   intentMap.set('setting_parch', setting_parch);
   intentMap.set('travelling_alone', travelling_alone);
   
+  // known passengers - shortcut
+  intentMap.set('jack_dawson', jack_dawson);
+  intentMap.set('rose_dewitt', rose_dewitt);
+  
+  // xAI
   intentMap.set('ceteris_paribus', ceteris_paribus);
+  intentMap.set('how_to_survive', how_to_survive);
   intentMap.set('break_down', break_down);
   
   agent.handleRequest(intentMap);
 });
-

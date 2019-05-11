@@ -1,6 +1,6 @@
 {
-  "id": "8d860739-70fa-40f3-ae65-9e121a2940b9",
-  "name": "problem_setting",
+  "id": "6767db3a-f825-463d-b302-d8ce5313d42c",
+  "name": "authorship",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -12,7 +12,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "https://en.wikipedia.org/wiki/Passengers_of_the_RMS_Titanic"
+          "speech": "Hey, you can contact the authors by mailing to kuzba.michal@gmail.com or by adding an issue here: https://github.com/pbiecek/xaibot-titanic. Your feedback is more than welcome!"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -20,7 +20,7 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": []

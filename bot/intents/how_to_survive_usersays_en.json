@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1302329e-54ca-4b06-8d67-f96dadee3b47",
+    "data": [
+      {
+        "text": "What to do to survive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "e0ec820c-f9ba-4461-9662-beb9c91927d7",
+    "data": [
+      {
+        "text": "Can I get chance of survival ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a9039cbe-9084-4b7f-a900-c9234a6f80ca",
+    "data": [
+      {
+        "text": "How can I get chance of survival equals ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ed87ea16-7604-42ff-9b7d-8cca28348f37",
+    "data": [
+      {
+        "text": "What would make me survive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d895aa2c-4b0f-4042-be2b-dde423771a7b",
+    "data": [
+      {
+        "text": "How to increase my prediction?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2fc88949-7070-4be2-90d9-7e584b552279",
+    "data": [
+      {
+        "text": "What can I change to increase the probability of survival?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1875c326-8f9c-4729-9fa7-8e9030c0e5ca",
+    "data": [
+      {
+        "text": "What can I do to survive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "56e8803a-7a74-4ba0-b151-fe861517ff83",
+    "data": [
+      {
+        "text": "How to survive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d8964156-16a5-49ab-a5d5-725ab168a4c3",
+    "data": [
+      {
+        "text": "What would increase my survival odds",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e06dfb48-fa44-4df5-b233-fc5bf8c161e7",
+    "data": [
+      {
+        "text": "How can I increase my chances?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

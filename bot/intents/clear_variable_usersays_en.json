@@ -1,0 +1,159 @@
+[
+  {
+    "id": "2bede2ea-8d68-4b83-a06b-d052ce87be66",
+    "data": [
+      {
+        "text": "I don\u0027t want to give ",
+        "userDefined": false
+      },
+      {
+        "text": "gender",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ec40643c-2821-4f5a-9604-e6a5e4f99862",
+    "data": [
+      {
+        "text": "Remove ",
+        "userDefined": false
+      },
+      {
+        "text": "gender",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "30e5b2fb-12f4-4676-b812-3e1d08dda605",
+    "data": [
+      {
+        "text": "Clear value of ",
+        "userDefined": false
+      },
+      {
+        "text": "gender",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5bef89fc-a989-4c1a-9c7e-f03ec16d5d9b",
+    "data": [
+      {
+        "text": "Clear ",
+        "userDefined": false
+      },
+      {
+        "text": "sibsp",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " value",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3829aa62-508b-4d18-ab72-6c07e38be294",
+    "data": [
+      {
+        "text": "I want to reset ",
+        "userDefined": false
+      },
+      {
+        "text": "parch",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e27e8227-f7f1-4ffb-8b5f-2f6f52afd609",
+    "data": [
+      {
+        "text": "Remove value of ",
+        "userDefined": false
+      },
+      {
+        "text": "embarked",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1eb6ceca-cc43-4325-b996-86d52c0e1ff6",
+    "data": [
+      {
+        "text": "Clear ",
+        "userDefined": false
+      },
+      {
+        "text": "fare",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "eb5fd34a-8692-405c-b6d4-edd91085bc81",
+    "data": [
+      {
+        "text": "Reset ",
+        "userDefined": false
+      },
+      {
+        "text": "class",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d9853ac5-4fba-4d55-92b3-ddbf3722ffb6",
+    "data": [
+      {
+        "text": "Clear value of ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

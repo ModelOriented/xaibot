@@ -1,5 +1,149 @@
 [
   {
+    "id": "f74bb3f0-5f83-4048-80f5-0b2bb18df7e2",
+    "data": [
+      {
+        "text": "How do the variables affect the survival?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "83006ca2-8120-4e3d-a708-7a6e0d707c6b",
+    "data": [
+      {
+        "text": "What variables most affect the survival?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9f9c6107-5b1b-4af4-9e84-3440798f04e6",
+    "data": [
+      {
+        "text": "Does it matter how old am I?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "61479164-8ac2-4a95-85c5-55ca01ea42a8",
+    "data": [
+      {
+        "text": "Does the ",
+        "userDefined": false
+      },
+      {
+        "text": "embarkment place",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      },
+      {
+        "text": " matters in prediction?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5b85c591-1a27-44d1-b2e6-509f43ba24bd",
+    "data": [
+      {
+        "text": "Is ",
+        "userDefined": false
+      },
+      {
+        "text": "fare",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " important here?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f6394348-ecc8-497c-ac6d-59bd19821e01",
+    "data": [
+      {
+        "text": "Does variable ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " matters?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "21f12abf-3a28-421e-b08d-a65e684f94b1",
+    "data": [
+      {
+        "text": "how?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "52611a7b-b26a-446d-a879-eb66dfb77a24",
+    "data": [
+      {
+        "text": "How it is possible, I\u0027m a boy!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ef5c58dc-08f9-4e46-b2c8-9a752adddbea",
+    "data": [
+      {
+        "text": "how you got it?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "38d89cd1-2816-487c-b5a0-aee08e106a2c",
+    "data": [
+      {
+        "text": "Breakdown",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
     "id": "c86ff58d-c019-4038-8313-1751246190fc",
     "data": [
       {

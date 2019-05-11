@@ -1,5 +1,17 @@
 [
   {
+    "id": "9b3f8bc5-9d65-47c3-a2d2-335f6b6b3a10",
+    "data": [
+      {
+        "text": "What are my chances?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
     "id": "c6082f4e-646c-4bfd-b2f9-282f4afb3489",
     "data": [
       {
@@ -202,6 +214,17 @@
     "data": [
       {
         "text": "Would I survive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bb5b8a3d-031b-4455-a949-8ac078a26052",
+    "data": [
+      {
+        "text": "survival prediction",
         "userDefined": false
       }
     ],

@@ -1,25 +1,140 @@
 [
   {
-    "id": "37a9d6b3-e31b-45c6-900e-381e612b7ba5",
+    "id": "08660022-ecf7-4abc-82e5-0041e8b03840",
     "data": [
       {
-        "text": "what if I travelled in a ",
-        "userDefined": false
-      },
-      {
-        "text": "1",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": false
-      },
-      {
-        "text": "st ",
+        "text": "What If I\u0027d travelled in 1st ",
         "userDefined": false
       },
       {
         "text": "class",
         "alias": "variable",
         "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "483c3d33-00fa-424b-8821-bec83812989f",
+    "data": [
+      {
+        "text": "What If I travelled in first ",
+        "userDefined": false
+      },
+      {
+        "text": "class",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d5987ecd-39c0-41b3-8950-a8cb5d9ef4a5",
+    "data": [
+      {
+        "text": "Which ",
+        "userDefined": false
+      },
+      {
+        "text": "class",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " was more likely to survive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ea165a62-9a79-4ea3-b7c4-60b3f1c0c2e0",
+    "data": [
+      {
+        "text": "ceteris paribus ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a0926302-4d52-4ce6-b55f-6e61389eb3be",
+    "data": [
+      {
+        "text": "What if I traveled in a different ",
+        "userDefined": false
+      },
+      {
+        "text": "class",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0276849f-a88f-4db5-8685-6c76b738c525",
+    "data": [
+      {
+        "text": "What if I have more sisters?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "732047e4-84ea-4c08-b7fa-b81b49189ec0",
+    "data": [
+      {
+        "text": "What if I ",
+        "userDefined": false
+      },
+      {
+        "text": "paid",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " more",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "93cf5596-c9b1-4d66-950e-8b1c813fe577",
+    "data": [
+      {
+        "text": "What if I am a girl?",
         "userDefined": false
       }
     ],
@@ -45,8 +160,9 @@
       },
       {
         "text": "class",
-        "meta": "@sys.ignore",
-        "userDefined": false
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
       }
     ],
     "isTemplate": false,
@@ -273,27 +389,6 @@
       },
       {
         "text": "?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "732047e4-84ea-4c08-b7fa-b81b49189ec0",
-    "data": [
-      {
-        "text": "What if I ",
-        "userDefined": false
-      },
-      {
-        "text": "paid",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": " more",
         "userDefined": false
       }
     ],

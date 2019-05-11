@@ -1,0 +1,79 @@
+[
+  {
+    "id": "9e505153-4424-4589-8121-b17eaeb82d01",
+    "data": [
+      {
+        "text": "What was the survival rate on Titanic?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b4aa5472-1970-4e1e-9100-840ca5991d68",
+    "data": [
+      {
+        "text": "What percentage of people survived the catastrophe?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6b930095-0b81-4018-90d9-d817ef7d7cab",
+    "data": [
+      {
+        "text": "How many people died on the Titanic?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4210fd72-ab03-41fd-8774-d10134212324",
+    "data": [
+      {
+        "text": "What percentage of passengers died?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "aa5941f2-60e7-4997-9667-e0cc86b34491",
+    "data": [
+      {
+        "text": "How many stay alived?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f9f7d02f-9cab-4fdf-b438-fddb62821773",
+    "data": [
+      {
+        "text": "How many survived on Titanic?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "33b7d165-9fb2-4cd6-bbc6-b63fb34d88e7",
+    "data": [
+      {
+        "text": "How many passengers survive the disaster?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

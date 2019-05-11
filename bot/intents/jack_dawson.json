@@ -1,15 +1,20 @@
 {
-  "id": "7c5d39d9-590c-44f3-8267-0ebe2c2883ed",
-  "name": "Default Welcome Intent",
+  "id": "ccff0095-2706-4a4a-a387-44aa54c29dcb",
+  "name": "jack_dawson",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
       "affectedContexts": [],
       "parameters": [],
-      "messages": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
       "defaultResponsePlatforms": {},
       "speech": []
     }

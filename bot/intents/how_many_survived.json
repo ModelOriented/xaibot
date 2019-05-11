@@ -1,21 +1,26 @@
 {
-  "id": "7c5d39d9-590c-44f3-8267-0ebe2c2883ed",
-  "name": "Default Welcome Intent",
+  "id": "76c69db5-fb77-44ec-a8f0-262234b7af72",
+  "name": "how_many_survived",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
       "affectedContexts": [],
       "parameters": [],
-      "messages": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "706 out of 2224 people (passengers and crew) survived the disaster. It\u0027s 31.6%."
+        }
+      ],
       "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": []

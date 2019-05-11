@@ -1,5 +1,27 @@
 [
   {
+    "id": "1e5642bd-747b-42ef-b846-6f44101423dd",
+    "data": [
+      {
+        "text": "passenger information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "eff4ae0c-3481-4a54-a1ae-c1d4b2a47f64",
+    "data": [
+      {
+        "text": "person details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
     "id": "0c5dd780-2675-410a-95c0-f2baa67e6ddc",
     "data": [
       {

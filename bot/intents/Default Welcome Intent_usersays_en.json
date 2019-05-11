@@ -1,5 +1,21 @@
 [
   {
+    "id": "ae9f120e-a761-475e-ae7b-e671d4b4d98a",
+    "data": [
+      {
+        "text": "Get ",
+        "userDefined": false
+      },
+      {
+        "text": "started",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
     "id": "1d95509e-a8a6-4c87-b421-668e083c8a3b",
     "data": [
       {

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "25316fab-e85b-40da-b576-5075ef7a8503",
+    "data": [
+      {
+        "text": "How this works?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "73048ce1-1fb2-4ba3-ae17-e1550802fd9f",
+    "data": [
+      {
+        "text": "How are these calculated?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "78279c1d-2ffc-4419-9282-014b2cc35eff",
+    "data": [
+      {
+        "text": "How is this plot created?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b5dc0d3a-25a6-49f8-9921-06367b21bbe8",
+    "data": [
+      {
+        "text": "How does break down work?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

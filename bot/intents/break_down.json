@@ -6,8 +6,23 @@
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [],
-      "parameters": [],
+      "affectedContexts": [
+        {
+          "name": "break_down_plot",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c826fa98-0899-4d60-bed0-3bdc92d3ffa4",
+          "required": false,
+          "dataType": "@variable",
+          "name": "variable",
+          "value": "$variable",
+          "isList": false
+        }
+      ],
       "messages": [],
       "defaultResponsePlatforms": {},
       "speech": []

@@ -1,33 +1,9 @@
 [
   {
-    "id": "c5768645-7d7e-46dd-9e2f-63b2c4a33d84",
+    "id": "9518879f-3d3f-4696-bfc4-0a0b8174ae68",
     "data": [
       {
-        "text": "What do you know about the Titanic?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "b988f799-1ff2-4875-90e0-7abe61133d13",
-    "data": [
-      {
-        "text": "Do you know any fun facts about titanic?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "a97b52dc-3fc1-46ee-8f70-fea3a2fa1d1c",
-    "data": [
-      {
-        "text": "What kind of dataset is this?",
+        "text": "How was this bot created?",
         "userDefined": false
       }
     ],
@@ -35,10 +11,10 @@
     "count": 0
   },
   {
-    "id": "02b8ff83-3b7b-43ae-9898-eab4a6dfb954",
+    "id": "14a7a405-bc3a-446d-b9e7-8ba10ead6d1f",
     "data": [
       {
-        "text": "What problem do we solve here?",
+        "text": "Authors",
         "userDefined": false
       }
     ],
@@ -46,10 +22,10 @@
     "count": 0
   },
   {
-    "id": "d3e38862-8886-4601-874d-44bd0b61e1ac",
+    "id": "516dfbd8-13ef-4838-b267-f1177d276584",
     "data": [
       {
-        "text": "Problem description",
+        "text": "Feedback",
         "userDefined": false
       }
     ],
@@ -57,10 +33,10 @@
     "count": 0
   },
   {
-    "id": "2821dba9-b7f0-4d5a-ae98-ec40e3ce7b0d",
+    "id": "b9d7f2b6-409b-48e2-b403-e4f489d76b45",
     "data": [
       {
-        "text": "Describe the problem",
+        "text": "Give feedback",
         "userDefined": false
       }
     ],
@@ -68,10 +44,10 @@
     "count": 0
   },
   {
-    "id": "a44de975-2724-4824-bc9f-f22b1b02b967",
+    "id": "5862fa3b-fe7c-43b3-9ba3-ffa7dde39c74",
     "data": [
       {
-        "text": "What is this all about",
+        "text": "I want to give feedback",
         "userDefined": false
       }
     ],
@@ -79,10 +55,10 @@
     "count": 0
   },
   {
-    "id": "a212e0a5-4109-4879-9ec8-ee91dbd19059",
+    "id": "ef8f943d-6bb5-4c47-bac8-352e1ff9dc87",
     "data": [
       {
-        "text": "Describe the background",
+        "text": "Who authored this?",
         "userDefined": false
       }
     ],
@@ -90,10 +66,10 @@
     "count": 0
   },
   {
-    "id": "171caa3e-972e-4da1-bae9-3be6cbb14887",
+    "id": "8b132ab7-45fa-4d0c-80b9-b5c6e2ea3e66",
     "data": [
       {
-        "text": "What is the exact problem?",
+        "text": "Who developed this",
         "userDefined": false
       }
     ],
@@ -101,10 +77,32 @@
     "count": 0
   },
   {
-    "id": "16b874c0-2ec3-4671-a9b0-513140593136",
+    "id": "e0afefe6-20d9-445e-a14c-1fe9fb237e10",
     "data": [
       {
-        "text": "What is the dataset?",
+        "text": "How can I contact you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ad69bf39-5cd4-4c07-82d5-d3540ba44c44",
+    "data": [
+      {
+        "text": "Who is the author",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b9457a26-a7f2-4112-b1d2-9321de064afb",
+    "data": [
+      {
+        "text": "Contact the author",
         "userDefined": false
       }
     ],

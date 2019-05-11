@@ -12,10 +12,12 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Thanks for being nice. But this won\u0027t help you to survive on Titanic!"
+          "speech": "Thanks for being nice ;)  But this won\u0027t help you to survive on Titanic!"
         }
       ],
-      "defaultResponsePlatforms": {},
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
       "speech": []
     }
   ],
