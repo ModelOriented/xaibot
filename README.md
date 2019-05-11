@@ -1,6 +1,11 @@
 # xaibot-titanic
+XAI chatbot explaining your chance of survival on Titanic.
+Bot will be released soon.
 
-XAI chat bot for Titanic model - created with plumber
+## Sources
+Chatbot is developed in the platform Dialogflow.
+Both NLU training files and code for the dialogue management might be found [here](bot).
+The Machine Learning model is accessed via `plumber` API described below.
 
 ## start plumber
 
