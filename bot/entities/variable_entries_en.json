@@ -1,5 +1,38 @@
 [
   {
+    "value": "parch",
+    "synonyms": [
+      "parch",
+      "mother",
+      "father",
+      "child",
+      "son",
+      "daughter",
+      "alone",
+      "on my own",
+      "children",
+      "mom",
+      "dad",
+      "mommy",
+      "daddy",
+      "parches"
+    ]
+  },
+  {
+    "value": "sibsp",
+    "synonyms": [
+      "sibsp",
+      "sibling",
+      "brother",
+      "sister",
+      "wife",
+      "husband",
+      "partner",
+      "spouse",
+      "sibsps"
+    ]
+  },
+  {
     "value": "gender",
     "synonyms": [
       "gender",
@@ -13,7 +46,22 @@
       "men",
       "women",
       "males",
-      "females"
+      "females",
+      "genders",
+      "sexes"
+    ]
+  },
+  {
+    "value": "fare",
+    "synonyms": [
+      "fare",
+      "ticket price",
+      "ticket cost",
+      "ticket fare",
+      "pay",
+      "paid",
+      "rich",
+      "fares"
     ]
   },
   {
@@ -31,7 +79,8 @@
     "value": "class",
     "synonyms": [
       "class",
-      "crew"
+      "crew",
+      "classes"
     ]
   },
   {
@@ -41,48 +90,6 @@
       "place of embarkment",
       "started",
       "start"
-    ]
-  },
-  {
-    "value": "fare",
-    "synonyms": [
-      "fare",
-      "ticket price",
-      "ticket cost",
-      "ticket fare",
-      "pay",
-      "paid"
-    ]
-  },
-  {
-    "value": "sibsp",
-    "synonyms": [
-      "sibsp",
-      "sibling",
-      "brother",
-      "sister",
-      "wife",
-      "husband",
-      "partner",
-      "spouse"
-    ]
-  },
-  {
-    "value": "parch",
-    "synonyms": [
-      "parch",
-      "mother",
-      "father",
-      "child",
-      "son",
-      "daughter",
-      "alone",
-      "on my own",
-      "children",
-      "mom",
-      "dad",
-      "mommy",
-      "daddy"
     ]
   }
 ]

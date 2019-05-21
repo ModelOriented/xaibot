@@ -1,0 +1,76 @@
+[
+  {
+    "id": "94289549-8673-4ee8-bb58-adcead3b7c0f",
+    "data": [
+      {
+        "text": "Don\u0027t want to be Jack now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "eb3368d1-4a79-43f2-b801-238dac7bcc7e",
+    "data": [
+      {
+        "text": "Stop being ",
+        "userDefined": false
+      },
+      {
+        "text": "Jack",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e1fe7d08-29b5-4f70-9b36-32d85ff269fe",
+    "data": [
+      {
+        "text": "I\u0027m not ",
+        "userDefined": false
+      },
+      {
+        "text": "Jack",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4405e573-602a-4f92-9cfd-58cb80db2695",
+    "data": [
+      {
+        "text": "I am not Jack now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6fd85279-92b4-4e77-bfd4-0e7891969dfe",
+    "data": [
+      {
+        "text": "I don\u0027t want to be ",
+        "userDefined": false
+      },
+      {
+        "text": "Jack",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " anymore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

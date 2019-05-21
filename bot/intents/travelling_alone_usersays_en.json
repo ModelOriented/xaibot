@@ -1,5 +1,16 @@
 [
   {
+    "id": "29c8aec2-c9dd-47f6-b446-d53f089d0157",
+    "data": [
+      {
+        "text": "I was alone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
     "id": "2dc387d5-9e5d-46a1-9d46-a7ff258f811a",
     "data": [
       {
@@ -10,6 +21,17 @@
     "isTemplate": false,
     "count": 0,
     "updated": 0
+  },
+  {
+    "id": "1b867d2c-5535-4907-8c8e-4fe5a808851b",
+    "data": [
+      {
+        "text": "I travelled alone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
   },
   {
     "id": "7888b853-c505-4c27-8ea6-132309719576",
@@ -23,28 +45,6 @@
     "count": 1
   },
   {
-    "id": "29c8aec2-c9dd-47f6-b446-d53f089d0157",
-    "data": [
-      {
-        "text": "I was alone",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "3f531fe9-0431-4edb-a83c-3a18df75a3e0",
-    "data": [
-      {
-        "text": "There was no one else with me",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
     "id": "b51b55c0-5e1c-4d49-890a-7a8c623f855e",
     "data": [
       {
@@ -56,10 +56,10 @@
     "count": 0
   },
   {
-    "id": "1b867d2c-5535-4907-8c8e-4fe5a808851b",
+    "id": "3f531fe9-0431-4edb-a83c-3a18df75a3e0",
     "data": [
       {
-        "text": "I travelled alone",
+        "text": "There was no one else with me",
         "userDefined": false
       }
     ],

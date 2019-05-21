@@ -1,66 +1,9 @@
 [
   {
-    "id": "08660022-ecf7-4abc-82e5-0041e8b03840",
+    "id": "1b76548f-ec96-49cf-83a8-348dc36c49ed",
     "data": [
       {
-        "text": "What If I\u0027d travelled in 1st ",
-        "userDefined": false
-      },
-      {
-        "text": "class",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "483c3d33-00fa-424b-8821-bec83812989f",
-    "data": [
-      {
-        "text": "What If I travelled in first ",
-        "userDefined": false
-      },
-      {
-        "text": "class",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "d5987ecd-39c0-41b3-8950-a8cb5d9ef4a5",
-    "data": [
-      {
-        "text": "Which ",
-        "userDefined": false
-      },
-      {
-        "text": "class",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": " was more likely to survive?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "ea165a62-9a79-4ea3-b7c4-60b3f1c0c2e0",
-    "data": [
-      {
-        "text": "ceteris paribus ",
+        "text": "how ",
         "userDefined": false
       },
       {
@@ -68,6 +11,10 @@
         "alias": "variable",
         "meta": "@variable",
         "userDefined": false
+      },
+      {
+        "text": " changes predictions",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
@@ -75,10 +22,54 @@
     "updated": 0
   },
   {
-    "id": "a0926302-4d52-4ce6-b55f-6e61389eb3be",
+    "id": "5ae0d699-4a17-4030-a851-356002137cb3",
     "data": [
       {
-        "text": "What if I traveled in a different ",
+        "text": "what if ",
+        "userDefined": false
+      },
+      {
+        "text": "class",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " changes?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ae53b8d0-1e2b-4eb6-863f-775de3ca203d",
+    "data": [
+      {
+        "text": "what if ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " changes?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "293c5eea-5950-49e8-8af0-4848236ee5ed",
+    "data": [
+      {
+        "text": "what if I had better ",
         "userDefined": false
       },
       {
@@ -97,10 +88,20 @@
     "updated": 0
   },
   {
-    "id": "0276849f-a88f-4db5-8685-6c76b738c525",
+    "id": "fe03aa4e-c191-4efb-a98d-a886a255d62d",
     "data": [
       {
-        "text": "What if I have more sisters?",
+        "text": "What if I was in ",
+        "userDefined": false
+      },
+      {
+        "text": "1 class",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      },
+      {
+        "text": "?",
         "userDefined": false
       }
     ],
@@ -109,10 +110,104 @@
     "updated": 0
   },
   {
-    "id": "732047e4-84ea-4c08-b7fa-b81b49189ec0",
+    "id": "579eade2-2933-44f9-85cd-6c816584d5a9",
     "data": [
       {
-        "text": "What if I ",
+        "text": "what if I had a ",
+        "userDefined": false
+      },
+      {
+        "text": "spouse",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "072398a4-aacc-4655-b8c8-3e72cff635d5",
+    "data": [
+      {
+        "text": "what if i was a ",
+        "userDefined": false
+      },
+      {
+        "text": "female",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d50f7d5b-3358-4b0b-a1b3-af806110fb8d",
+    "data": [
+      {
+        "text": "what if I was ",
+        "userDefined": false
+      },
+      {
+        "text": "younger",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1df45089-0b6c-4827-aa45-ded028c75f5f",
+    "data": [
+      {
+        "text": "should i change my ",
+        "userDefined": false
+      },
+      {
+        "text": "sex",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46748db4-01d0-404c-ad22-69786309974e",
+    "data": [
+      {
+        "text": "Please plot PDP for ",
+        "userDefined": false
+      },
+      {
+        "text": "fare",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d4ce762f-0b60-4d98-bf2a-068230573444",
+    "data": [
+      {
+        "text": "partial dependence for amount ",
         "userDefined": false
       },
       {
@@ -120,14 +215,198 @@
         "alias": "variable",
         "meta": "@variable",
         "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7101d982-0d73-4b58-9334-f343aa717fe6",
+    "data": [
+      {
+        "text": "ale plot for amount ",
+        "userDefined": false
       },
       {
-        "text": " more",
+        "text": "paid",
+        "alias": "variable",
+        "meta": "@variable",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 1,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "271a4286-3627-47b1-a84d-087e2e5b6cc6",
+    "data": [
+      {
+        "text": "plot for ",
+        "userDefined": false
+      },
+      {
+        "text": "fare",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4f892f24-fbbf-4f71-8e42-0ca8f0e775da",
+    "data": [
+      {
+        "text": "ALE plot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "70dbfecb-59ac-47d8-9a60-e47cb7714463",
+    "data": [
+      {
+        "text": "ALE plot for ",
+        "userDefined": false
+      },
+      {
+        "text": "fare",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ea57c632-92d8-4096-8fa4-06bd939743b3",
+    "data": [
+      {
+        "text": "wankardu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9897f6b7-4090-438e-a3a9-4799b85a922f",
+    "data": [
+      {
+        "text": "PDP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6d8411ff-680c-4396-9d39-27a42e948b15",
+    "data": [
+      {
+        "text": "PDP ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "afa02695-91bc-49ec-bc20-261e0ac14056",
+    "data": [
+      {
+        "text": "PDP ",
+        "userDefined": false
+      },
+      {
+        "text": "fare",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2afd30fa-c95e-4774-9f32-40eaa6b14365",
+    "data": [
+      {
+        "text": "PDP of ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4ce099db-3fb7-41b9-8a62-e644bef10be8",
+    "data": [
+      {
+        "text": "What if she was ",
+        "userDefined": false
+      },
+      {
+        "text": "older",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2cf98072-e91a-4111-b5dc-bb7194762c57",
+    "data": [
+      {
+        "text": "can i survive if i would be 10 years ",
+        "userDefined": false
+      },
+      {
+        "text": "older",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
     "updated": 0
   },
   {
@@ -135,6 +414,63 @@
     "data": [
       {
         "text": "What if I am a girl?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "050ef009-ba2d-42c9-9340-2af897a719e9",
+    "data": [
+      {
+        "text": "What if I had traveled ",
+        "userDefined": false
+      },
+      {
+        "text": "alone",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "26bd240e-5dfa-4d0c-b552-04d7671e7fd8",
+    "data": [
+      {
+        "text": "Age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " PD plot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "79e3ebd6-0dea-49c6-b782-2b6de605ed7b",
+    "data": [
+      {
+        "text": "what if ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " ?",
         "userDefined": false
       }
     ],
@@ -197,16 +533,38 @@
     "count": 0
   },
   {
-    "id": "050ef009-ba2d-42c9-9340-2af897a719e9",
+    "id": "ea165a62-9a79-4ea3-b7c4-60b3f1c0c2e0",
     "data": [
       {
-        "text": "What if I had traveled ",
+        "text": "ceteris paribus ",
         "userDefined": false
       },
       {
-        "text": "alone",
+        "text": "age",
         "alias": "variable",
         "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3a3e4602-4f81-41f5-bc84-ef7628b3bb1f",
+    "data": [
+      {
+        "text": "What if I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "rich",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
         "userDefined": false
       }
     ],
@@ -214,31 +572,72 @@
     "count": 0
   },
   {
-    "id": "b8bdbc54-c3eb-4587-9ac0-c01471c54b77",
+    "id": "a0926302-4d52-4ce6-b55f-6e61389eb3be",
     "data": [
       {
-        "text": "Let\u0027s suppose I travel as a ",
+        "text": "What if I traveled in a different ",
         "userDefined": false
       },
       {
-        "text": "crew",
+        "text": "class",
         "alias": "variable",
         "meta": "@variable",
-        "userDefined": true
+        "userDefined": false
       },
       {
-        "text": " member",
+        "text": "?",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 0
+    "count": 0,
+    "updated": 0
   },
   {
-    "id": "f445048f-613e-40e0-872b-78ab61b2c54a",
+    "id": "483c3d33-00fa-424b-8821-bec83812989f",
     "data": [
       {
-        "text": "Suppose I ",
+        "text": "What If I travelled in first ",
+        "userDefined": false
+      },
+      {
+        "text": "class",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "732047e4-84ea-4c08-b7fa-b81b49189ec0",
+    "data": [
+      {
+        "text": "What if I ",
+        "userDefined": false
+      },
+      {
+        "text": "paid",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " more",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "8992600e-9991-45c4-8080-d91b7d758eb3",
+    "data": [
+      {
+        "text": "what if i ",
         "userDefined": false
       },
       {
@@ -248,12 +647,29 @@
         "userDefined": false
       },
       {
-        "text": " in ",
+        "text": " from other city?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d5987ecd-39c0-41b3-8950-a8cb5d9ef4a5",
+    "data": [
+      {
+        "text": "Which ",
         "userDefined": false
       },
       {
-        "text": "Belfast",
-        "meta": "@sys.ignore",
+        "text": "class",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " was more likely to survive?",
         "userDefined": false
       }
     ],
@@ -261,20 +677,146 @@
     "count": 0
   },
   {
-    "id": "7da44261-c61c-47fa-9528-dfd56423167d",
+    "id": "93a7093c-2ad7-4c9c-a2ed-9f6e819e1f61",
     "data": [
       {
-        "text": "What if I am traveling ",
+        "text": "Age",
+        "alias": "variable",
+        "meta": "@variable",
         "userDefined": false
       },
       {
-        "text": "on my own",
+        "text": " ceteris paribus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "08660022-ecf7-4abc-82e5-0041e8b03840",
+    "data": [
+      {
+        "text": "What If I\u0027d travelled in 1st ",
+        "userDefined": false
+      },
+      {
+        "text": "class",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0276849f-a88f-4db5-8685-6c76b738c525",
+    "data": [
+      {
+        "text": "What if I have more sisters?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e6db0e32-3de9-483a-bbed-59e88753032e",
+    "data": [
+      {
+        "text": "What if I had more ",
+        "userDefined": false
+      },
+      {
+        "text": "children",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3ae8ff6c-f545-4663-9ca4-4b2cec280994",
+    "data": [
+      {
+        "text": "what if i am old",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9880d5dc-27ab-470a-abe7-1dd941cefcc2",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "rich",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "73361b36-05b3-4876-9e90-9c836f65730d",
+    "data": [
+      {
+        "text": "What if I were 35 or 20",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b19f7981-8580-4649-8a14-445b52a8ccdd",
+    "data": [
+      {
+        "text": "Just because I am a ",
+        "userDefined": false
+      },
+      {
+        "text": "female",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
       },
       {
         "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2836fe06-0324-45b3-838f-144a572ab7ce",
+    "data": [
+      {
+        "text": "Prediction vs ",
+        "userDefined": false
+      },
+      {
+        "text": "gender",
+        "alias": "variable",
+        "meta": "@variable",
         "userDefined": false
       }
     ],
@@ -303,61 +845,6 @@
     "count": 0
   },
   {
-    "id": "1446f622-f5b4-4d4d-b54c-1a182f78ffec",
-    "data": [
-      {
-        "text": "Is the prediction higher for those travelling with ",
-        "userDefined": false
-      },
-      {
-        "text": "parents",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": true
-      },
-      {
-        "text": "?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "0f858aff-e35a-43cc-94f7-c1491f2e2e8d",
-    "data": [
-      {
-        "text": "What if I travel without ",
-        "userDefined": false
-      },
-      {
-        "text": "parents",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "4d62095e-399b-4064-af61-d3dd7038ac79",
-    "data": [
-      {
-        "text": "What if I travel with my ",
-        "userDefined": false
-      },
-      {
-        "text": "husband",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
     "id": "597a54a4-3624-4e8f-8369-d0411b3cef4a",
     "data": [
       {
@@ -368,103 +855,6 @@
         "text": "wife",
         "alias": "variable",
         "meta": "@variable",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "7b20cc39-75eb-48b1-84a5-ccf42a0f8a8a",
-    "data": [
-      {
-        "text": "What if I have more ",
-        "userDefined": false
-      },
-      {
-        "text": "siblings",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": "?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "50680501-e2a3-40c4-8677-6d97ffd96961",
-    "data": [
-      {
-        "text": "What if I had been a ",
-        "userDefined": false
-      },
-      {
-        "text": "man",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "fd00a994-4369-413f-b94a-bbe38bc66e61",
-    "data": [
-      {
-        "text": "What if I am ",
-        "userDefined": false
-      },
-      {
-        "text": "older",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "c4bcb9d1-49a1-4b35-9efe-19569728cbfe",
-    "data": [
-      {
-        "text": "Is the prediction higher for ",
-        "userDefined": false
-      },
-      {
-        "text": "older",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": " people?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "e5a16264-db5b-4f07-ad4e-ee7a69201862",
-    "data": [
-      {
-        "text": "Was it more likely to survive with less or more expensive ",
-        "userDefined": false
-      },
-      {
-        "text": "ticket",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": true
-      },
-      {
-        "text": "?",
         "userDefined": false
       }
     ],
@@ -503,24 +893,57 @@
     "count": 0
   },
   {
-    "id": "6ab35b18-0f37-464a-bb91-ec132b6eda2a",
+    "id": "812699d3-0fec-4aae-a187-1ca71ad4d8a8",
     "data": [
       {
-        "text": "Was it better to be ",
+        "text": "Plot ceteris paribus curve for ",
         "userDefined": false
       },
       {
-        "text": "younger",
+        "text": "parch",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f445048f-613e-40e0-872b-78ab61b2c54a",
+    "data": [
+      {
+        "text": "Suppose I ",
+        "userDefined": false
+      },
+      {
+        "text": "embarked",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": false
       },
       {
-        "text": " or ",
+        "text": " in ",
         "userDefined": false
       },
       {
-        "text": "older",
+        "text": "Belfast",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7b20cc39-75eb-48b1-84a5-ccf42a0f8a8a",
+    "data": [
+      {
+        "text": "What if I have more ",
+        "userDefined": false
+      },
+      {
+        "text": "siblings",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": false
@@ -534,51 +957,21 @@
     "count": 0
   },
   {
-    "id": "777f8c1c-9b62-4466-9c5a-c9afe678ba36",
+    "id": "7da44261-c61c-47fa-9528-dfd56423167d",
     "data": [
       {
-        "text": "ICE plot for ",
+        "text": "What if I am traveling ",
         "userDefined": false
       },
       {
-        "text": "gender",
+        "text": "on my own",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "3a53b97c-1e5a-40e5-b070-cb68156498bd",
-    "data": [
-      {
-        "text": "Ceteris Paribus plots for ",
-        "userDefined": false
       },
       {
-        "text": "fare",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "12eed1be-a0f8-4655-8b53-36ce23d5bd83",
-    "data": [
-      {
-        "text": "Compare chance of survival between ",
+        "text": "?",
         "userDefined": false
-      },
-      {
-        "text": "genders",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": true
       }
     ],
     "isTemplate": false,
@@ -602,31 +995,14 @@
     "count": 0
   },
   {
-    "id": "4713caa7-00d1-420c-81ac-a96499f5e5da",
+    "id": "0f858aff-e35a-43cc-94f7-c1491f2e2e8d",
     "data": [
       {
-        "text": "Prediction as a function of ",
+        "text": "What if I travel without ",
         "userDefined": false
       },
       {
-        "text": "sibsp",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": true
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "94235ae6-7156-4b4f-82a2-f308e1d5ea9a",
-    "data": [
-      {
-        "text": "Model output vs ",
-        "userDefined": false
-      },
-      {
-        "text": "age",
+        "text": "parents",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": true
@@ -657,37 +1033,20 @@
     "count": 0
   },
   {
-    "id": "206dc855-5e3d-4f87-8289-93dff4499911",
+    "id": "b8bdbc54-c3eb-4587-9ac0-c01471c54b77",
     "data": [
       {
-        "text": "What ticket ",
+        "text": "Let\u0027s suppose I travel as a ",
         "userDefined": false
       },
       {
-        "text": "price",
+        "text": "crew",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": true
       },
       {
-        "text": " guarantees the survival?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "74feda4d-069e-4621-8903-4a2114c70f82",
-    "data": [
-      {
-        "text": "Compare chance for people at different ",
-        "userDefined": false
-      },
-      {
-        "text": "age",
-        "alias": "variable",
-        "meta": "@variable",
+        "text": " member",
         "userDefined": false
       }
     ],
@@ -713,103 +1072,6 @@
       },
       {
         "text": "woman",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "9f0fbf23-47d5-40d6-8d0a-147ce9fd7241",
-    "data": [
-      {
-        "text": "Is chance of survival higher for a ",
-        "userDefined": false
-      },
-      {
-        "text": "man",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": "?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "bec8160a-715f-4cb0-9c4b-62ffff6a9909",
-    "data": [
-      {
-        "text": "Which ",
-        "userDefined": false
-      },
-      {
-        "text": "gender",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": " is more likely to survive?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "36ece39b-91a5-4a83-af93-71c7b1654404",
-    "data": [
-      {
-        "text": "At which ",
-        "userDefined": false
-      },
-      {
-        "text": "age",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": " the chance of survival is the highest?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "812699d3-0fec-4aae-a187-1ca71ad4d8a8",
-    "data": [
-      {
-        "text": "Plot ceteris paribus curve for ",
-        "userDefined": false
-      },
-      {
-        "text": "parch",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "319b6a95-412e-49bd-9cad-47fdb375a9f4",
-    "data": [
-      {
-        "text": "Draw ceteris paribus plot for variable ",
-        "userDefined": false
-      },
-      {
-        "text": "age",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": false
@@ -857,14 +1119,73 @@
     "count": 0
   },
   {
-    "id": "8142209a-b2e0-4792-85a6-df07b8a63c90",
+    "id": "91b49321-58a1-4693-80a3-7ec99a6f1069",
     "data": [
       {
-        "text": "What if I\u0027m ",
+        "text": "What is the dependence of the result on ",
         "userDefined": false
       },
       {
-        "text": "older",
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1446f622-f5b4-4d4d-b54c-1a182f78ffec",
+    "data": [
+      {
+        "text": "Is the prediction higher for those travelling with ",
+        "userDefined": false
+      },
+      {
+        "text": "parents",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4d62095e-399b-4064-af61-d3dd7038ac79",
+    "data": [
+      {
+        "text": "What if I travel with my ",
+        "userDefined": false
+      },
+      {
+        "text": "husband",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "319b6a95-412e-49bd-9cad-47fdb375a9f4",
+    "data": [
+      {
+        "text": "Draw ceteris paribus plot for variable ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": false
@@ -891,17 +1212,293 @@
     "count": 0
   },
   {
-    "id": "2836fe06-0324-45b3-838f-144a572ab7ce",
+    "id": "12eed1be-a0f8-4655-8b53-36ce23d5bd83",
     "data": [
       {
-        "text": "Prediction vs ",
+        "text": "Compare chance of survival between ",
+        "userDefined": false
+      },
+      {
+        "text": "genders",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c4bcb9d1-49a1-4b35-9efe-19569728cbfe",
+    "data": [
+      {
+        "text": "Is the prediction higher for ",
+        "userDefined": false
+      },
+      {
+        "text": "older",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " people?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "36ece39b-91a5-4a83-af93-71c7b1654404",
+    "data": [
+      {
+        "text": "At which ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " the chance of survival is the highest?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fd00a994-4369-413f-b94a-bbe38bc66e61",
+    "data": [
+      {
+        "text": "What if I am ",
+        "userDefined": false
+      },
+      {
+        "text": "older",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4713caa7-00d1-420c-81ac-a96499f5e5da",
+    "data": [
+      {
+        "text": "Prediction as a function of ",
+        "userDefined": false
+      },
+      {
+        "text": "sibsp",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "74feda4d-069e-4621-8903-4a2114c70f82",
+    "data": [
+      {
+        "text": "Compare chance for people at different ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "94235ae6-7156-4b4f-82a2-f308e1d5ea9a",
+    "data": [
+      {
+        "text": "Model output vs ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b4f7bae2-a89e-42c5-aa27-fc3d907b6875",
+    "data": [
+      {
+        "text": "How the prediction depends on ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6ab35b18-0f37-464a-bb91-ec132b6eda2a",
+    "data": [
+      {
+        "text": "Was it better to be ",
+        "userDefined": false
+      },
+      {
+        "text": "younger",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " or ",
+        "userDefined": false
+      },
+      {
+        "text": "older",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "50680501-e2a3-40c4-8677-6d97ffd96961",
+    "data": [
+      {
+        "text": "What if I had been a ",
+        "userDefined": false
+      },
+      {
+        "text": "man",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e5a16264-db5b-4f07-ad4e-ee7a69201862",
+    "data": [
+      {
+        "text": "Was it more likely to survive with less or more expensive ",
+        "userDefined": false
+      },
+      {
+        "text": "ticket",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "206dc855-5e3d-4f87-8289-93dff4499911",
+    "data": [
+      {
+        "text": "What ticket ",
+        "userDefined": false
+      },
+      {
+        "text": "price",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      },
+      {
+        "text": " guarantees the survival?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9f0fbf23-47d5-40d6-8d0a-147ce9fd7241",
+    "data": [
+      {
+        "text": "Is chance of survival higher for a ",
+        "userDefined": false
+      },
+      {
+        "text": "man",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8142209a-b2e0-4792-85a6-df07b8a63c90",
+    "data": [
+      {
+        "text": "What if I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "older",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "777f8c1c-9b62-4466-9c5a-c9afe678ba36",
+    "data": [
+      {
+        "text": "ICE plot for ",
         "userDefined": false
       },
       {
         "text": "gender",
         "alias": "variable",
         "meta": "@variable",
-        "userDefined": false
+        "userDefined": true
       }
     ],
     "isTemplate": false,
@@ -925,41 +1522,37 @@
     "count": 0
   },
   {
-    "id": "91b49321-58a1-4693-80a3-7ec99a6f1069",
+    "id": "3a53b97c-1e5a-40e5-b070-cb68156498bd",
     "data": [
       {
-        "text": "What is the dependence of the result on ",
+        "text": "Ceteris Paribus plots for ",
         "userDefined": false
       },
       {
-        "text": "age",
+        "text": "fare",
         "alias": "variable",
         "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": "?",
-        "userDefined": false
+        "userDefined": true
       }
     ],
     "isTemplate": false,
     "count": 0
   },
   {
-    "id": "b4f7bae2-a89e-42c5-aa27-fc3d907b6875",
+    "id": "bec8160a-715f-4cb0-9c4b-62ffff6a9909",
     "data": [
       {
-        "text": "How the prediction depends on ",
+        "text": "Which ",
         "userDefined": false
       },
       {
-        "text": "age",
+        "text": "gender",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": false
       },
       {
-        "text": "?",
+        "text": " is more likely to survive?",
         "userDefined": false
       }
     ],

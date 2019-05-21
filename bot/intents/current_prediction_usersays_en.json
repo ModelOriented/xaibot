@@ -1,15 +1,50 @@
 [
   {
-    "id": "9b3f8bc5-9d65-47c3-a2d2-335f6b6b3a10",
+    "id": "5678a6aa-7c36-4d8f-8d30-5f3cb3b22358",
     "data": [
       {
-        "text": "What are my chances?",
+        "text": "What is my chance?",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
     "updated": 0
+  },
+  {
+    "id": "3c32f60e-e0f0-4bdf-bfaa-25492cf9ebd6",
+    "data": [
+      {
+        "text": "Will I survive",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1e4db0b2-ba58-4c0d-b827-d4f104430f2b",
+    "data": [
+      {
+        "text": "What are my chances of survival",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8095b1df-80d4-418d-8528-055a1c40abf2",
+    "data": [
+      {
+        "text": "Would I die?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
   },
   {
     "id": "c6082f4e-646c-4bfd-b2f9-282f4afb3489",
@@ -34,6 +69,41 @@
     "count": 0
   },
   {
+    "id": "94229241-0dbe-4432-a840-377a739e0197",
+    "data": [
+      {
+        "text": "Chance of survival",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d21c1879-4c31-4df3-96b3-7e225180d35b",
+    "data": [
+      {
+        "text": "Do I die?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "9b3f8bc5-9d65-47c3-a2d2-335f6b6b3a10",
+    "data": [
+      {
+        "text": "What are my chances?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
     "id": "fee5fd6e-c070-4231-ab9a-e85ae25c7591",
     "data": [
       {
@@ -56,10 +126,88 @@
     "count": 0
   },
   {
-    "id": "f7ea37da-d2d8-4ed5-9b6d-8ef2edaca3b1",
+    "id": "3dbb2f83-28f7-4170-8994-e53aaa10f80e",
     "data": [
       {
-        "text": "So, do I survive the disaster?",
+        "text": "Probability of staying alive",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cb432bef-448a-4841-a303-d2f3937729c5",
+    "data": [
+      {
+        "text": "What is the result?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f8394898-c0e4-4051-8c91-d725cbc51c98",
+    "data": [
+      {
+        "text": "Would I survive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6517137f-8278-4853-804b-d5775c1b690e",
+    "data": [
+      {
+        "text": "What is my current survival chance?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fdb6b886-3ce0-4408-9cbf-11a81f20b542",
+    "data": [
+      {
+        "text": "tell me something about my chances of survive",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "11368910-6cb6-46d3-aacd-b7f1ba64e7e3",
+    "data": [
+      {
+        "text": "What\u0027s the prediction?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2ba8fc03-3d3a-4668-8924-c5e74d7c5775",
+    "data": [
+      {
+        "text": "Do I survive on Titanic?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bb5b8a3d-031b-4455-a949-8ac078a26052",
+    "data": [
+      {
+        "text": "survival prediction",
         "userDefined": false
       }
     ],
@@ -78,21 +226,10 @@
     "count": 0
   },
   {
-    "id": "3dbb2f83-28f7-4170-8994-e53aaa10f80e",
+    "id": "0fc800a8-daae-4564-b282-96c808e5e801",
     "data": [
       {
-        "text": "Probability of staying alive",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "94229241-0dbe-4432-a840-377a739e0197",
-    "data": [
-      {
-        "text": "Chance of survival",
+        "text": "What\u0027s the probability for me to survive?",
         "userDefined": false
       }
     ],
@@ -122,28 +259,6 @@
     "count": 0
   },
   {
-    "id": "cb432bef-448a-4841-a303-d2f3937729c5",
-    "data": [
-      {
-        "text": "What is the result?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "11368910-6cb6-46d3-aacd-b7f1ba64e7e3",
-    "data": [
-      {
-        "text": "What\u0027s the prediction?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
     "id": "ee24bb2c-1273-4389-b3d6-85f1358ed435",
     "data": [
       {
@@ -155,10 +270,10 @@
     "count": 0
   },
   {
-    "id": "2ba8fc03-3d3a-4668-8924-c5e74d7c5775",
+    "id": "f7ea37da-d2d8-4ed5-9b6d-8ef2edaca3b1",
     "data": [
       {
-        "text": "Do I survive on Titanic?",
+        "text": "So, do I survive the disaster?",
         "userDefined": false
       }
     ],
@@ -177,28 +292,6 @@
     "count": 0
   },
   {
-    "id": "8095b1df-80d4-418d-8528-055a1c40abf2",
-    "data": [
-      {
-        "text": "Would I die?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "d21c1879-4c31-4df3-96b3-7e225180d35b",
-    "data": [
-      {
-        "text": "Do I die?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
     "id": "5d938aed-45fa-4c18-8b0f-50646ed52bd6",
     "data": [
       {
@@ -210,54 +303,10 @@
     "count": 0
   },
   {
-    "id": "f8394898-c0e4-4051-8c91-d725cbc51c98",
-    "data": [
-      {
-        "text": "Would I survive?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "bb5b8a3d-031b-4455-a949-8ac078a26052",
-    "data": [
-      {
-        "text": "survival prediction",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "0fc800a8-daae-4564-b282-96c808e5e801",
-    "data": [
-      {
-        "text": "What\u0027s the probability for me to survive?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
     "id": "529464eb-f22d-4f68-aa91-c8a0020822a6",
     "data": [
       {
         "text": "What is the likelihood of my survival?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "6517137f-8278-4853-804b-d5775c1b690e",
-    "data": [
-      {
-        "text": "What is my current survival chance?",
         "userDefined": false
       }
     ],

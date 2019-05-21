@@ -1,36 +1,19 @@
 [
   {
-    "id": "da14f742-e405-4cc5-80e9-760de7b498cd",
+    "id": "e10166d4-0ff4-4f74-b599-b39662258f7c",
     "data": [
       {
-        "text": "I\u0027m paying ",
+        "text": "change my fare to \"",
         "userDefined": false
       },
       {
-        "text": "1000",
+        "text": "300",
         "alias": "number",
         "meta": "@sys.number",
-        "userDefined": true
-      },
-      {
-        "text": " pounds",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "29946abd-a2d8-4867-865a-2996f895a444",
-    "data": [
-      {
-        "text": "So, let\u0027s assume that I\u0027ve paid ",
         "userDefined": false
       },
       {
-        "text": "25",
-        "alias": "number",
-        "meta": "@sys.number",
+        "text": "\"",
         "userDefined": false
       }
     ],
@@ -39,57 +22,16 @@
     "updated": 0
   },
   {
-    "id": "c6aad33c-c5ac-47d2-b7bf-9c4d1b0ecd26",
+    "id": "e6b0bd70-ff74-4cc9-a0e8-0811418d388f",
     "data": [
       {
-        "text": "Fare ",
-        "userDefined": false
-      },
-      {
-        "text": "1000000",
-        "alias": "number",
-        "meta": "@sys.number",
+        "text": "change Fare",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
     "updated": 0
-  },
-  {
-    "id": "b40b194e-72dc-49af-a223-7c6c0d7f0057",
-    "data": [
-      {
-        "text": "Fare ",
-        "userDefined": false
-      },
-      {
-        "text": "0",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "3778acf5-f13a-43aa-b748-1ecd96ce843b",
-    "data": [
-      {
-        "text": "It\u0027s ",
-        "userDefined": false
-      },
-      {
-        "text": "48",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
   },
   {
     "id": "136553fe-e1b9-47c1-8f8b-3e65b2f47986",
@@ -102,101 +44,6 @@
         "text": "11",
         "alias": "number",
         "meta": "@sys.number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "360b3da3-a6d6-4af1-821a-357cf740f6f5",
-    "data": [
-      {
-        "text": "The ",
-        "userDefined": false
-      },
-      {
-        "text": "ticket price",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " was ",
-        "userDefined": false
-      },
-      {
-        "text": "44",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "6b65a571-0ae6-465b-8ebb-ea2782208bcb",
-    "data": [
-      {
-        "text": "Set the ",
-        "userDefined": false
-      },
-      {
-        "text": "ticket price",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "dea1dfca-7358-4f5b-a643-10c7c5d53a13",
-    "data": [
-      {
-        "text": "I want to set the ",
-        "userDefined": false
-      },
-      {
-        "text": "ticket price",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "ea2cec9c-51ed-4628-ade7-83c8acf29af3",
-    "data": [
-      {
-        "text": "Change the ",
-        "userDefined": false
-      },
-      {
-        "text": "ticket fare",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "6233b5bd-0311-439d-91cf-544898c1e973",
-    "data": [
-      {
-        "text": "My ticket was worth ",
-        "userDefined": false
-      },
-      {
-        "text": "44",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": true
-      },
-      {
-        "text": " pounds",
         "userDefined": false
       }
     ],
@@ -230,16 +77,15 @@
     "count": 0
   },
   {
-    "id": "89340b7a-a1c1-4f0e-953b-6ae53b4a8805",
+    "id": "af6fd509-41d3-464b-9e53-778080be7b4b",
     "data": [
       {
-        "text": "44",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": true
+        "text": "I want to give the ",
+        "userDefined": false
       },
       {
-        "text": " £",
+        "text": "ticket cost",
+        "meta": "@sys.ignore",
         "userDefined": false
       }
     ],
@@ -247,77 +93,37 @@
     "count": 0
   },
   {
-    "id": "f9a73e34-340b-4094-a38a-8cd992073350",
+    "id": "dc56e5fd-d92e-45e9-b873-e5aa996fb02c",
     "data": [
       {
-        "text": "20",
+        "text": "It costs ",
+        "userDefined": false
+      },
+      {
+        "text": "90",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "da14f742-e405-4cc5-80e9-760de7b498cd",
+    "data": [
+      {
+        "text": "I\u0027m paying ",
+        "userDefined": false
+      },
+      {
+        "text": "1000",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": true
       },
       {
         "text": " pounds",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "2a684758-cb7a-4bd4-83ed-5dafe85c916a",
-    "data": [
-      {
-        "text": "34",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "3d1b1b5e-0c77-4646-81d0-dce47697de94",
-    "data": [
-      {
-        "text": "Set ",
-        "userDefined": false
-      },
-      {
-        "text": "fare",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " to ",
-        "userDefined": false
-      },
-      {
-        "text": "20",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "ecf5483f-b802-4602-beae-790bc21bb2ec",
-    "data": [
-      {
-        "text": "Fare",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      },
-      {
-        "text": " is ",
-        "userDefined": false
-      },
-      {
-        "text": "55",
-        "alias": "number",
-        "meta": "@sys.number",
         "userDefined": false
       }
     ],
@@ -357,30 +163,14 @@
     "count": 0
   },
   {
-    "id": "af6fd509-41d3-464b-9e53-778080be7b4b",
+    "id": "94ea02f2-1e75-40e9-8aa7-010ae39d8607",
     "data": [
       {
-        "text": "I want to give the ",
+        "text": "My ",
         "userDefined": false
       },
       {
-        "text": "ticket cost",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "eabba0da-7f86-4363-a7b7-83ff42baf9bf",
-    "data": [
-      {
-        "text": "I ",
-        "userDefined": false
-      },
-      {
-        "text": "paid",
+        "text": "ticket costs",
         "meta": "@sys.ignore",
         "userDefined": false
       },
@@ -396,6 +186,269 @@
       },
       {
         "text": " pounds",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b40b194e-72dc-49af-a223-7c6c0d7f0057",
+    "data": [
+      {
+        "text": "Fare ",
+        "userDefined": false
+      },
+      {
+        "text": "0",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ea2cec9c-51ed-4628-ade7-83c8acf29af3",
+    "data": [
+      {
+        "text": "Change the ",
+        "userDefined": false
+      },
+      {
+        "text": "ticket fare",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6233b5bd-0311-439d-91cf-544898c1e973",
+    "data": [
+      {
+        "text": "My ticket was worth ",
+        "userDefined": false
+      },
+      {
+        "text": "44",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " pounds",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "89340b7a-a1c1-4f0e-953b-6ae53b4a8805",
+    "data": [
+      {
+        "text": "44",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " £",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3d1b1b5e-0c77-4646-81d0-dce47697de94",
+    "data": [
+      {
+        "text": "Set ",
+        "userDefined": false
+      },
+      {
+        "text": "fare",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c6aad33c-c5ac-47d2-b7bf-9c4d1b0ecd26",
+    "data": [
+      {
+        "text": "Fare ",
+        "userDefined": false
+      },
+      {
+        "text": "1000000",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dea1dfca-7358-4f5b-a643-10c7c5d53a13",
+    "data": [
+      {
+        "text": "I want to set the ",
+        "userDefined": false
+      },
+      {
+        "text": "ticket price",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ecf5483f-b802-4602-beae-790bc21bb2ec",
+    "data": [
+      {
+        "text": "Fare",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "55",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fbd0ea83-be53-4b3f-aad1-d1b0ebc5d3cd",
+    "data": [
+      {
+        "text": "I\u0027ve paid ",
+        "userDefined": false
+      },
+      {
+        "text": "200",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " USD",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "29946abd-a2d8-4867-865a-2996f895a444",
+    "data": [
+      {
+        "text": "So, let\u0027s assume that I\u0027ve paid ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f9a73e34-340b-4094-a38a-8cd992073350",
+    "data": [
+      {
+        "text": "20",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " pounds",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b1723ec8-0eaf-40df-ad3d-b90f7ca6d552",
+    "data": [
+      {
+        "text": "Ticket fare",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2a684758-cb7a-4bd4-83ed-5dafe85c916a",
+    "data": [
+      {
+        "text": "34",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3778acf5-f13a-43aa-b748-1ecd96ce843b",
+    "data": [
+      {
+        "text": "It\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "48",
+        "alias": "number",
+        "meta": "@sys.number",
         "userDefined": false
       }
     ],
@@ -425,53 +478,56 @@
     "count": 0
   },
   {
-    "id": "dc56e5fd-d92e-45e9-b873-e5aa996fb02c",
+    "id": "6b65a571-0ae6-465b-8ebb-ea2782208bcb",
     "data": [
       {
-        "text": "It costs ",
+        "text": "Set the ",
         "userDefined": false
       },
       {
-        "text": "90",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": true
+        "text": "ticket price",
+        "meta": "@sys.ignore",
+        "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0
   },
   {
-    "id": "b1723ec8-0eaf-40df-ad3d-b90f7ca6d552",
+    "id": "360b3da3-a6d6-4af1-821a-357cf740f6f5",
     "data": [
       {
-        "text": "Ticket fare",
+        "text": "The ",
+        "userDefined": false
+      },
+      {
+        "text": "ticket price",
         "meta": "@sys.ignore",
         "userDefined": false
       },
       {
-        "text": " is ",
+        "text": " was ",
         "userDefined": false
       },
       {
-        "text": "50",
+        "text": "44",
         "alias": "number",
         "meta": "@sys.number",
-        "userDefined": true
+        "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0
   },
   {
-    "id": "94ea02f2-1e75-40e9-8aa7-010ae39d8607",
+    "id": "eabba0da-7f86-4363-a7b7-83ff42baf9bf",
     "data": [
       {
-        "text": "My ",
+        "text": "I ",
         "userDefined": false
       },
       {
-        "text": "ticket costs",
+        "text": "paid",
         "meta": "@sys.ignore",
         "userDefined": false
       },

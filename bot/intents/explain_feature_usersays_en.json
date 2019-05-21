@@ -1,130 +1,25 @@
 [
   {
-    "id": "c071efe8-eca0-4c80-a328-937ed746f472",
+    "id": "9e990c27-5d12-4034-b354-2b20f4774dd2",
     "data": [
       {
-        "text": "what are the possible values of ",
+        "text": "What are possible ",
         "userDefined": false
       },
       {
-        "text": "age",
+        "text": "Place of embarkment",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 1,
+    "count": 0,
     "updated": 0
   },
   {
-    "id": "317de419-635c-4409-9453-0e2e1374a624",
+    "id": "7e2c6fba-4155-4a73-856f-a2a0cf3382b1",
     "data": [
-      {
-        "text": "How many ",
-        "userDefined": false
-      },
-      {
-        "text": "classes",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": true
-      },
-      {
-        "text": " were on Titanic?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "030299bd-b628-45c0-aca5-08285dc09d7a",
-    "data": [
-      {
-        "text": "What are the options for ",
-        "userDefined": false
-      },
-      {
-        "text": "class",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "fd160409-75d3-4eb9-b0ae-a30d7341bbe2",
-    "data": [
-      {
-        "text": "What possible values of ",
-        "userDefined": false
-      },
-      {
-        "text": "class",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": " might be?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "84af8837-a9b7-412f-b233-7ee099539f02",
-    "data": [
-      {
-        "text": "What are the possible values of a ",
-        "userDefined": false
-      },
-      {
-        "text": "gender",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": "?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "467c4e6e-12fa-4981-bf60-708bcb9a35f6",
-    "data": [
-      {
-        "text": "what ",
-        "userDefined": false
-      },
-      {
-        "text": "age",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": " means here?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "44e2dc59-4a0d-4cc2-94c9-467959b9e010",
-    "data": [
-      {
-        "text": "I don\u0027t know what the ",
-        "userDefined": false
-      },
       {
         "text": "fare",
         "alias": "variable",
@@ -132,35 +27,55 @@
         "userDefined": false
       },
       {
-        "text": " is",
+        "text": " range",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 0
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "60deef45-3269-4d49-80b9-6fa880fa4516",
+    "data": [
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " range",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e13a42f-db1e-4386-853c-447ff76d1172",
+    "data": [
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " valid range",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
   },
   {
     "id": "d8d2ebac-79ef-4e01-92cc-d5ae9d4e12d9",
     "data": [
       {
         "text": "I don\u0027t understand ",
-        "userDefined": false
-      },
-      {
-        "text": "parch",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "fd771a4d-0758-4504-a81e-96baa32b8856",
-    "data": [
-      {
-        "text": "What is the exact meaning of ",
         "userDefined": false
       },
       {
@@ -195,14 +110,104 @@
     "count": 0
   },
   {
-    "id": "20f23b87-15c1-4709-89ba-a955cb647fe4",
+    "id": "775aa419-2d2f-465b-b2bd-1f608b35c741",
     "data": [
       {
-        "text": "What is the ",
+        "text": "Describe ",
         "userDefined": false
       },
       {
-        "text": "ticket fare",
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "49467a0d-b18e-4fe6-965a-a7b2a54315bd",
+    "data": [
+      {
+        "text": "what is ",
+        "userDefined": false
+      },
+      {
+        "text": "parch",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "317de419-635c-4409-9453-0e2e1374a624",
+    "data": [
+      {
+        "text": "How many ",
+        "userDefined": false
+      },
+      {
+        "text": "classes",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      },
+      {
+        "text": " were on Titanic?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5b8ff885-c55e-437f-b275-bc2985a0e9f7",
+    "data": [
+      {
+        "text": "What values the ",
+        "userDefined": false
+      },
+      {
+        "text": "class",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " may have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "dfcc567b-3b70-415f-92f0-d9b64b051594",
+    "data": [
+      {
+        "text": "class",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9b497423-4d16-4dc8-9550-6935962afc2f",
+    "data": [
+      {
+        "text": "What are the possible values of ",
+        "userDefined": false
+      },
+      {
+        "text": "sibsp",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": false
@@ -216,14 +221,108 @@
     "count": 0
   },
   {
-    "id": "432dd306-7bb9-4bec-a424-476c6c6f3bcb",
+    "id": "c071efe8-eca0-4c80-a328-937ed746f472",
     "data": [
       {
-        "text": "Explain what is ",
+        "text": "what are the possible values of ",
+        "userDefined": false
+      },
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "84af8837-a9b7-412f-b233-7ee099539f02",
+    "data": [
+      {
+        "text": "What are the possible values of a ",
         "userDefined": false
       },
       {
         "text": "gender",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fd160409-75d3-4eb9-b0ae-a30d7341bbe2",
+    "data": [
+      {
+        "text": "What possible values of ",
+        "userDefined": false
+      },
+      {
+        "text": "class",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " might be?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "41b29327-ecb0-45db-b3d4-294f41ca421f",
+    "data": [
+      {
+        "text": "embarked",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "edfd9e82-2a21-48e5-96d8-5d15388f2616",
+    "data": [
+      {
+        "text": "What is the meaning of a feature ",
+        "userDefined": false
+      },
+      {
+        "text": "Sex",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "030299bd-b628-45c0-aca5-08285dc09d7a",
+    "data": [
+      {
+        "text": "What are the options for ",
+        "userDefined": false
+      },
+      {
+        "text": "class",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": false
@@ -254,6 +353,62 @@
     "count": 0
   },
   {
+    "id": "0cb3f008-ce59-4c2a-b0bd-e7220c3c948c",
+    "data": [
+      {
+        "text": "age",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "44e2dc59-4a0d-4cc2-94c9-467959b9e010",
+    "data": [
+      {
+        "text": "I don\u0027t know what the ",
+        "userDefined": false
+      },
+      {
+        "text": "fare",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " is",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6bd286bb-07bb-49e1-b347-20f281f527e3",
+    "data": [
+      {
+        "text": "what ",
+        "userDefined": false
+      },
+      {
+        "text": "parch",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " means ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
     "id": "966a56a5-d4db-46dc-af75-2bb491feed9b",
     "data": [
       {
@@ -275,99 +430,10 @@
     "count": 0
   },
   {
-    "id": "33249114-42ce-4301-acd1-1512b7ce5dbd",
-    "data": [
-      {
-        "text": "What are the choices for ",
-        "userDefined": false
-      },
-      {
-        "text": "embarked",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": "?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "5b8ff885-c55e-437f-b275-bc2985a0e9f7",
-    "data": [
-      {
-        "text": "What values the ",
-        "userDefined": false
-      },
-      {
-        "text": "class",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": " may have?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "9b497423-4d16-4dc8-9550-6935962afc2f",
-    "data": [
-      {
-        "text": "What are the possible values of ",
-        "userDefined": false
-      },
-      {
-        "text": "sibsp",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": "?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "41b29327-ecb0-45db-b3d4-294f41ca421f",
-    "data": [
-      {
-        "text": "embarked",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
     "id": "dff10e8b-b190-43d0-a4ed-e551162da50c",
     "data": [
       {
         "text": "fare",
-        "alias": "variable",
-        "meta": "@variable",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "dfcc567b-3b70-415f-92f0-d9b64b051594",
-    "data": [
-      {
-        "text": "class",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": false
@@ -390,8 +456,12 @@
     "count": 0
   },
   {
-    "id": "3bd7d219-986f-4341-816e-1c1601369f9e",
+    "id": "fd771a4d-0758-4504-a81e-96baa32b8856",
     "data": [
+      {
+        "text": "What is the exact meaning of ",
+        "userDefined": false
+      },
       {
         "text": "parch",
         "alias": "variable",
@@ -403,8 +473,30 @@
     "count": 0
   },
   {
-    "id": "9681cc39-14d7-4c1a-89d0-93774831087f",
+    "id": "134952b6-de35-4170-ad9a-6db40c9e21cf",
     "data": [
+      {
+        "text": "Possible ",
+        "userDefined": false
+      },
+      {
+        "text": "fares",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "432dd306-7bb9-4bec-a424-476c6c6f3bcb",
+    "data": [
+      {
+        "text": "Explain what is ",
+        "userDefined": false
+      },
       {
         "text": "gender",
         "alias": "variable",
@@ -416,12 +508,20 @@
     "count": 0
   },
   {
-    "id": "0cb3f008-ce59-4c2a-b0bd-e7220c3c948c",
+    "id": "467c4e6e-12fa-4981-bf60-708bcb9a35f6",
     "data": [
+      {
+        "text": "what ",
+        "userDefined": false
+      },
       {
         "text": "age",
         "alias": "variable",
         "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": " means here?",
         "userDefined": false
       }
     ],
@@ -450,6 +550,27 @@
     "count": 0
   },
   {
+    "id": "33249114-42ce-4301-acd1-1512b7ce5dbd",
+    "data": [
+      {
+        "text": "What are the choices for ",
+        "userDefined": false
+      },
+      {
+        "text": "embarked",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
     "id": "b5241749-718f-465b-a201-d16f3a638c38",
     "data": [
       {
@@ -467,14 +588,31 @@
     "count": 0
   },
   {
-    "id": "775aa419-2d2f-465b-b2bd-1f608b35c741",
+    "id": "20f23b87-15c1-4709-89ba-a955cb647fe4",
     "data": [
       {
-        "text": "Describe ",
+        "text": "What is the ",
         "userDefined": false
       },
       {
-        "text": "age",
+        "text": "ticket fare",
+        "alias": "variable",
+        "meta": "@variable",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3bd7d219-986f-4341-816e-1c1601369f9e",
+    "data": [
+      {
+        "text": "parch",
         "alias": "variable",
         "meta": "@variable",
         "userDefined": false
@@ -484,20 +622,12 @@
     "count": 0
   },
   {
-    "id": "edfd9e82-2a21-48e5-96d8-5d15388f2616",
+    "id": "9681cc39-14d7-4c1a-89d0-93774831087f",
     "data": [
       {
-        "text": "What is the meaning of a feature ",
-        "userDefined": false
-      },
-      {
-        "text": "Sex",
+        "text": "gender",
         "alias": "variable",
         "meta": "@variable",
-        "userDefined": false
-      },
-      {
-        "text": "?",
         "userDefined": false
       }
     ],

@@ -1,0 +1,60 @@
+{
+  "id": "2e935abe-3c66-4f27-bd6c-73519ba3a5a2",
+  "name": "multi_slot_filling",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9b45cbbd-2236-498e-b0f3-4c8cda5bcddd",
+          "required": false,
+          "dataType": "@gender",
+          "name": "gender",
+          "value": "$gender",
+          "isList": false
+        },
+        {
+          "id": "67444036-7608-4de4-b9e0-bb6f14112b9f",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "639149e7-f4e5-4e35-9b94-13b52313b77e",
+          "required": false,
+          "dataType": "@embarkment_place",
+          "name": "embarkment_place",
+          "value": "$embarkment_place",
+          "isList": false
+        },
+        {
+          "id": "35eb5db9-3061-4aaa-be47-ad9f189fd9f1",
+          "required": false,
+          "dataType": "@class",
+          "name": "class",
+          "value": "$class",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please, give on information at a time - multi filling is just about to be added"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

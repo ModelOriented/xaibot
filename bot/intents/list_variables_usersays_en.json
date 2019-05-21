@@ -1,9 +1,9 @@
 [
   {
-    "id": "6a0ef87a-e693-448a-9ecd-40a43872281f",
+    "id": "3390a7b3-7dca-4b96-97a1-fab9bef24943",
     "data": [
       {
-        "text": "what variables I can use?",
+        "text": "explain the variables",
         "userDefined": false
       }
     ],
@@ -12,65 +12,34 @@
     "updated": 0
   },
   {
-    "id": "08688f2d-0b9f-49a4-b302-b54f56ac51b4",
+    "id": "328fc34b-5de9-462a-9b19-a45260552a0b",
     "data": [
       {
-        "text": "More...",
+        "text": "What else variables?",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 0
+    "count": 0,
+    "updated": 0
   },
   {
-    "id": "39bf5632-ff40-4aa1-af34-ca1808e7e049",
+    "id": "187c4411-6da6-42bc-82c1-12bbae6e75b2",
     "data": [
       {
-        "text": "print all attributes",
+        "text": "Other variables?",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "09953585-7879-4f72-b206-3d6fdb9348d6",
-    "data": [
-      {
-        "text": "all possible features",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
+    "count": 1,
+    "updated": 0
   },
   {
     "id": "b0534d8a-bad5-4afe-8e83-9045b64c524e",
     "data": [
       {
         "text": "variables to specify",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "1bad3e14-ec5f-47e2-9b37-c2f548dc7074",
-    "data": [
-      {
-        "text": "What details can I specify?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "4d7cc5c7-1b47-4fca-bd39-71adace6a74b",
-    "data": [
-      {
-        "text": "What sort of information I can give?",
         "userDefined": false
       }
     ],
@@ -111,39 +80,6 @@
     "count": 0
   },
   {
-    "id": "e8b5dd5d-187d-422b-ab27-bc6fa6e1c2af",
-    "data": [
-      {
-        "text": "Print all features",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "993f986e-37ee-4c40-8b1a-5db8ca27f8ce",
-    "data": [
-      {
-        "text": "What are the attributes?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "0f9a8b4d-7972-4819-b7f6-a3a949b6e264",
-    "data": [
-      {
-        "text": "I want to know all variables",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
     "id": "d1e261e5-f004-4686-8f6f-77476f346df8",
     "data": [
       {
@@ -155,10 +91,10 @@
     "count": 0
   },
   {
-    "id": "8eab6e52-d86a-40dc-b773-38ad4816f9dd",
+    "id": "08688f2d-0b9f-49a4-b302-b54f56ac51b4",
     "data": [
       {
-        "text": "What features I can set?",
+        "text": "More...",
         "userDefined": false
       }
     ],
@@ -166,21 +102,10 @@
     "count": 0
   },
   {
-    "id": "5a427c76-22e9-40ba-a10a-1799a5a3b7f5",
+    "id": "4d7cc5c7-1b47-4fca-bd39-71adace6a74b",
     "data": [
       {
-        "text": "List variables",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "052e8767-7a00-406d-863a-b44c4853f4bf",
-    "data": [
-      {
-        "text": "What variables we have?",
+        "text": "What sort of information I can give?",
         "userDefined": false
       }
     ],
@@ -199,6 +124,28 @@
     "count": 0
   },
   {
+    "id": "993f986e-37ee-4c40-8b1a-5db8ca27f8ce",
+    "data": [
+      {
+        "text": "What are the attributes?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5a427c76-22e9-40ba-a10a-1799a5a3b7f5",
+    "data": [
+      {
+        "text": "List variables",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
     "id": "bf8c554f-89fa-46fb-a158-4ebc3d857b29",
     "data": [
       {
@@ -210,10 +157,10 @@
     "count": 0
   },
   {
-    "id": "8e7afd1d-fdee-47d7-aaca-6b30875603ee",
+    "id": "39bf5632-ff40-4aa1-af34-ca1808e7e049",
     "data": [
       {
-        "text": "List all available features",
+        "text": "print all attributes",
         "userDefined": false
       }
     ],
@@ -225,6 +172,107 @@
     "data": [
       {
         "text": "What variables are there?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8dbf68b9-35d9-46c0-b27b-c824379c3405",
+    "data": [
+      {
+        "text": "what variables are being taken into consideration?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6a0ef87a-e693-448a-9ecd-40a43872281f",
+    "data": [
+      {
+        "text": "what variables I can use?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1bad3e14-ec5f-47e2-9b37-c2f548dc7074",
+    "data": [
+      {
+        "text": "What details can I specify?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e8b5dd5d-187d-422b-ab27-bc6fa6e1c2af",
+    "data": [
+      {
+        "text": "Print all features",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "052e8767-7a00-406d-863a-b44c4853f4bf",
+    "data": [
+      {
+        "text": "What variables we have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "09953585-7879-4f72-b206-3d6fdb9348d6",
+    "data": [
+      {
+        "text": "all possible features",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0f9a8b4d-7972-4819-b7f6-a3a949b6e264",
+    "data": [
+      {
+        "text": "I want to know all variables",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8eab6e52-d86a-40dc-b773-38ad4816f9dd",
+    "data": [
+      {
+        "text": "What features I can set?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8e7afd1d-fdee-47d7-aaca-6b30875603ee",
+    "data": [
+      {
+        "text": "List all available features",
         "userDefined": false
       }
     ],

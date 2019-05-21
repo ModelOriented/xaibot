@@ -1,18 +1,14 @@
 {
-  "id": "ccff0095-2706-4a4a-a387-44aa54c29dcb",
-  "name": "jack_dawson",
+  "id": "067eae4e-6835-45a9-8d81-e70776d7286e",
+  "name": "reset_rose",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "being_rose"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [
-        {
-          "name": "being_jack",
-          "parameters": {},
-          "lifespan": 8
-        }
-      ],
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {

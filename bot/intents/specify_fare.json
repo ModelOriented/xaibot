@@ -1,24 +1,24 @@
 {
-  "id": "eb856529-b95d-4103-bb4f-cee92501e360",
-  "name": "specify_parch",
+  "id": "507ad5b9-d29f-4d19-ab19-4c31a59d11ce",
+  "name": "specify_fare",
   "auto": true,
   "contexts": [
-    "specify_parch"
+    "specify_fare"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "specify_parch",
+          "name": "specify_fare",
           "parameters": {},
           "lifespan": 1
         }
       ],
       "parameters": [
         {
-          "id": "76221701-5dc4-4cbc-a216-7550838f12e7",
-          "required": true,
+          "id": "a3bed0f4-65b0-423e-993e-60832bf475e6",
+          "required": false,
           "dataType": "@sys.number",
           "name": "number",
           "value": "$number",

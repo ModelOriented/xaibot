@@ -1,42 +1,9 @@
 [
   {
-    "id": "9518879f-3d3f-4696-bfc4-0a0b8174ae68",
-    "data": [
-      {
-        "text": "How was this bot created?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
     "id": "14a7a405-bc3a-446d-b9e7-8ba10ead6d1f",
     "data": [
       {
         "text": "Authors",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "516dfbd8-13ef-4838-b267-f1177d276584",
-    "data": [
-      {
-        "text": "Feedback",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "b9d7f2b6-409b-48e2-b403-e4f489d76b45",
-    "data": [
-      {
-        "text": "Give feedback",
         "userDefined": false
       }
     ],
@@ -55,10 +22,10 @@
     "count": 0
   },
   {
-    "id": "ef8f943d-6bb5-4c47-bac8-352e1ff9dc87",
+    "id": "ad69bf39-5cd4-4c07-82d5-d3540ba44c44",
     "data": [
       {
-        "text": "Who authored this?",
+        "text": "Who is the author",
         "userDefined": false
       }
     ],
@@ -66,10 +33,32 @@
     "count": 0
   },
   {
-    "id": "8b132ab7-45fa-4d0c-80b9-b5c6e2ea3e66",
+    "id": "9518879f-3d3f-4696-bfc4-0a0b8174ae68",
     "data": [
       {
-        "text": "Who developed this",
+        "text": "How was this bot created?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b9d7f2b6-409b-48e2-b403-e4f489d76b45",
+    "data": [
+      {
+        "text": "Give feedback",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b9457a26-a7f2-4112-b1d2-9321de064afb",
+    "data": [
+      {
+        "text": "Contact the author",
         "userDefined": false
       }
     ],
@@ -88,10 +77,10 @@
     "count": 0
   },
   {
-    "id": "ad69bf39-5cd4-4c07-82d5-d3540ba44c44",
+    "id": "516dfbd8-13ef-4838-b267-f1177d276584",
     "data": [
       {
-        "text": "Who is the author",
+        "text": "Feedback",
         "userDefined": false
       }
     ],
@@ -99,10 +88,21 @@
     "count": 0
   },
   {
-    "id": "b9457a26-a7f2-4112-b1d2-9321de064afb",
+    "id": "8b132ab7-45fa-4d0c-80b9-b5c6e2ea3e66",
     "data": [
       {
-        "text": "Contact the author",
+        "text": "Who developed this",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ef8f943d-6bb5-4c47-bac8-352e1ff9dc87",
+    "data": [
+      {
+        "text": "Who authored this?",
         "userDefined": false
       }
     ],

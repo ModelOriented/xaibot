@@ -1,8 +1,9 @@
 {
   "description": "",
   "language": "en",
+  "activeAssistantAgents": [],
   "disableInteractionLogs": false,
-  "disableStackdriverLogs": true,
+  "disableStackdriverLogs": false,
   "googleAssistant": {
     "googleAssistantCompatible": true,
     "project": "titanic-explainer",

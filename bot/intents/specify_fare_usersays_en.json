@@ -1,9 +1,9 @@
 [
   {
-    "id": "8e574b85-f867-4e59-bb16-4bdd2f25a35e",
+    "id": "c2d7fe8d-9642-4275-a29a-a3a623d4f01a",
     "data": [
       {
-        "text": "4",
+        "text": "20",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": false
@@ -13,10 +13,10 @@
     "count": 0
   },
   {
-    "id": "d3d7ac3c-236f-4f6c-b290-95a523a00b12",
+    "id": "95094b25-21f7-4afd-8c7e-980e29debba9",
     "data": [
       {
-        "text": "3",
+        "text": "70",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": false
@@ -26,10 +26,10 @@
     "count": 0
   },
   {
-    "id": "84fd72f5-af9c-46ad-ad45-82c43309f0d5",
+    "id": "64eabdbf-8911-4b96-9fcf-7edd9bb72433",
     "data": [
       {
-        "text": "5",
+        "text": "500",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": false
@@ -39,10 +39,10 @@
     "count": 0
   },
   {
-    "id": "6fd83e40-f7db-478b-ae1b-791bbb1a8243",
+    "id": "13866677-a147-424b-998d-f59e603bdce2",
     "data": [
       {
-        "text": "five",
+        "text": "30",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": false
@@ -52,10 +52,10 @@
     "count": 0
   },
   {
-    "id": "3f2b7907-cb13-4828-b3a9-e4eef0e0f5ea",
+    "id": "f4fcc26b-ae51-4e88-9004-47ec1257f227",
     "data": [
       {
-        "text": "1",
+        "text": "1400",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": false
@@ -65,36 +65,23 @@
     "count": 0
   },
   {
-    "id": "5bcaae8b-0857-4c91-83fc-a50c0111f879",
+    "id": "8a90b433-e4d1-4d85-8992-439227a835b3",
     "data": [
       {
-        "text": "2",
+        "text": "190",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 0
+    "count": 1
   },
   {
-    "id": "03449cb8-faef-432e-afcb-5bb431bc4598",
+    "id": "255f19e0-4de6-4677-9e7d-bd38bde8bcf2",
     "data": [
       {
-        "text": "one",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "568c2a87-a7e5-4c7d-9d4c-35706ea4c7d4",
-    "data": [
-      {
-        "text": "zero",
+        "text": "120",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": false

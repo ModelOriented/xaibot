@@ -1,0 +1,747 @@
+[
+  {
+    "id": "d328c7cd-ac34-4dde-bf2c-acd154e9179c",
+    "data": [
+      {
+        "text": "male",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "55",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "2nd class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3d84b7a5-0bc9-4b17-a987-38c5ec0de4e5",
+    "data": [
+      {
+        "text": "62",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " years old, ",
+        "userDefined": false
+      },
+      {
+        "text": "Southampton",
+        "alias": "embarkment_place",
+        "meta": "@embarkment_place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1527461c-a639-4bb8-9fff-01abba098b43",
+    "data": [
+      {
+        "text": "62",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " yo, ",
+        "userDefined": false
+      },
+      {
+        "text": "Southampton",
+        "alias": "embarkment_place",
+        "meta": "@embarkment_place",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "deck crew",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d2716d0c-0c6d-4b49-a871-f015de7a8c2b",
+    "data": [
+      {
+        "text": "62",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " years, ",
+        "userDefined": false
+      },
+      {
+        "text": "Southampton",
+        "alias": "embarkment_place",
+        "meta": "@embarkment_place",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "1st class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "682a1681-486e-4cff-856b-6c4ce90daaad",
+    "data": [
+      {
+        "text": "Belfast",
+        "alias": "embarkment_place",
+        "meta": "@embarkment_place",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ed79973d-5b3f-4c16-9d12-6b402c831636",
+    "data": [
+      {
+        "text": "i am ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " yo ",
+        "userDefined": false
+      },
+      {
+        "text": "male",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": ", traveling ",
+        "userDefined": false
+      },
+      {
+        "text": "first class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": ",",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3182fbc9-c4e8-4fb7-9f5a-b94a160e6ed8",
+    "data": [
+      {
+        "text": "Age \u003d",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": ",gender \u003d",
+        "userDefined": false
+      },
+      {
+        "text": "male",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1342b6cf-8e6e-47f1-994c-c58db7b0c5e7",
+    "data": [
+      {
+        "text": "First class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Southampton",
+        "alias": "embarkment_place",
+        "meta": "@embarkment_place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7cafe7e3-ea4a-4081-97df-d24aa50f01f0",
+    "data": [
+      {
+        "text": "I\u0027m a ",
+        "userDefined": false
+      },
+      {
+        "text": "woman",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": ", travelling in a ",
+        "userDefined": false
+      },
+      {
+        "text": "first class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": " from ",
+        "userDefined": false
+      },
+      {
+        "text": "Belfast",
+        "alias": "embarkment_place",
+        "meta": "@embarkment_place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "dd4a9869-de79-4476-9d03-11a0681f57c1",
+    "data": [
+      {
+        "text": "victualling crew",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Cherbourg",
+        "alias": "embarkment_place",
+        "meta": "@embarkment_place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ccf75d75-45e8-441f-be14-d2fd3b296244",
+    "data": [
+      {
+        "text": "Male",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Southampton",
+        "alias": "embarkment_place",
+        "meta": "@embarkment_place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2263d638-d00a-462b-afc2-829ee2fff247",
+    "data": [
+      {
+        "text": "Male",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8ce91e0b-7fd8-48b0-9470-aaa528931048",
+    "data": [
+      {
+        "text": "Man",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4f94de5c-ea9c-4250-8222-cd7fca5a1499",
+    "data": [
+      {
+        "text": "3rd class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "girl",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b4c69ab9-ebf9-4853-aa4e-210d708dbf34",
+    "data": [
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " year old ",
+        "userDefined": false
+      },
+      {
+        "text": "boy",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "feab393d-c79c-4d53-960d-b88c92fe12c0",
+    "data": [
+      {
+        "text": "boy",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a1c64be1-9c6b-43fa-bec9-2cac911e110c",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "90",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "-year old ",
+        "userDefined": false
+      },
+      {
+        "text": "man",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": ", travelling from ",
+        "userDefined": false
+      },
+      {
+        "text": "Cherbourg",
+        "alias": "embarkment_place",
+        "meta": "@embarkment_place",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "1st class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7c6b75e7-6dee-46b5-b3ec-7f3700c23a20",
+    "data": [
+      {
+        "text": "woman",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "90",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Southampton",
+        "alias": "embarkment_place",
+        "meta": "@embarkment_place",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "1st class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "54b38382-223e-4609-bb08-4fc6ec9d8a8f",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "20 year old",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "man",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "177402fa-23f8-44ca-a308-57eedbafb3dc",
+    "data": [
+      {
+        "text": "20",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "male",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8f4999bd-57f9-47d0-9b2a-38fef1d9d26f",
+    "data": [
+      {
+        "text": "2nd class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "woman",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "391ddcc9-c3cd-4139-9840-f1452dc257a2",
+    "data": [
+      {
+        "text": "gender:",
+        "userDefined": false
+      },
+      {
+        "text": "female",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": ", age:",
+        "userDefined": false
+      },
+      {
+        "text": "26",
+        "alias": "age",
+        "meta": "@sys.age",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "802ab04a-87d4-4233-9758-e477508bc5a7",
+    "data": [
+      {
+        "text": "Female",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4e5c0f03-83c4-4b6b-b193-95661db41e70",
+    "data": [
+      {
+        "text": "20 ",
+        "userDefined": false
+      },
+      {
+        "text": "male",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "1st class",
+        "alias": "class",
+        "meta": "@class",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "Belfast",
+        "alias": "embarkment_place",
+        "meta": "@embarkment_place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "76d937fb-c94f-4138-9d12-f1f46c8ad1f0",
+    "data": [
+      {
+        "text": "Woman",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "20 years",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

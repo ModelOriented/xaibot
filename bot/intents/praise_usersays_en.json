@@ -1,21 +1,9 @@
 [
   {
-    "id": "a9f9d48f-7995-432f-82d9-d87ee9c7343f",
+    "id": "eb0579e5-2a28-4631-8b2a-b624eda02c4e",
     "data": [
       {
-        "text": "It\u0027s quite funny",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "7d56b316-b0b5-428e-be62-6927444c1419",
-    "data": [
-      {
-        "text": "This chatbot works gorgeous",
+        "text": "Nice!",
         "userDefined": false
       }
     ],
@@ -34,10 +22,56 @@
     "count": 0
   },
   {
-    "id": "3d2506c8-f62c-4aa0-8c4a-f9333afafe2c",
+    "id": "33c1fd69-15e2-4184-a590-7616a45bd768",
     "data": [
       {
-        "text": "Wonderful bot!",
+        "text": "Wonderful chatbot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "a9f9d48f-7995-432f-82d9-d87ee9c7343f",
+    "data": [
+      {
+        "text": "It\u0027s quite funny",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "809b4668-e809-4226-9944-9be315c1770a",
+    "data": [
+      {
+        "text": "Wow!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b5c09107-3038-4dd1-a0ff-d7a4602307c0",
+    "data": [
+      {
+        "text": "You are very smart",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7d56b316-b0b5-428e-be62-6927444c1419",
+    "data": [
+      {
+        "text": "This chatbot works gorgeous",
         "userDefined": false
       }
     ],
@@ -68,30 +102,6 @@
     "updated": 0
   },
   {
-    "id": "809b4668-e809-4226-9944-9be315c1770a",
-    "data": [
-      {
-        "text": "Wow!",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "35082b94-608a-4922-bd5c-d563463e9bc3",
-    "data": [
-      {
-        "text": "I see you are great!",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
     "id": "01c3babc-bc4c-4062-a60f-06846707fb47",
     "data": [
       {
@@ -103,32 +113,10 @@
     "count": 0
   },
   {
-    "id": "33c1fd69-15e2-4184-a590-7616a45bd768",
+    "id": "3d2506c8-f62c-4aa0-8c4a-f9333afafe2c",
     "data": [
       {
-        "text": "Wonderful chatbot",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1
-  },
-  {
-    "id": "82dffeb9-b73a-48f6-8ab5-51c9ba46aa3e",
-    "data": [
-      {
-        "text": "You are great!",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "eb0579e5-2a28-4631-8b2a-b624eda02c4e",
-    "data": [
-      {
-        "text": "Nice!",
+        "text": "Wonderful bot!",
         "userDefined": false
       }
     ],
@@ -147,17 +135,6 @@
     "count": 0
   },
   {
-    "id": "4816747d-0e98-4061-9fe7-83f4771349ab",
-    "data": [
-      {
-        "text": "I like talking to you",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
     "id": "affaf462-094e-45d1-b41c-3b7410e51038",
     "data": [
       {
@@ -169,10 +146,21 @@
     "count": 1
   },
   {
-    "id": "46e66add-475c-41db-ae30-c9dcb98aa309",
+    "id": "812dd01a-c7ac-4f64-aabc-5abcf2d5ea0e",
     "data": [
       {
-        "text": "You are very nice",
+        "text": "You\u0027re a clever bot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4816747d-0e98-4061-9fe7-83f4771349ab",
+    "data": [
+      {
+        "text": "I like talking to you",
         "userDefined": false
       }
     ],
@@ -202,10 +190,10 @@
     "count": 0
   },
   {
-    "id": "b5c09107-3038-4dd1-a0ff-d7a4602307c0",
+    "id": "82dffeb9-b73a-48f6-8ab5-51c9ba46aa3e",
     "data": [
       {
-        "text": "You are very smart",
+        "text": "You are great!",
         "userDefined": false
       }
     ],
@@ -213,14 +201,26 @@
     "count": 0
   },
   {
-    "id": "812dd01a-c7ac-4f64-aabc-5abcf2d5ea0e",
+    "id": "46e66add-475c-41db-ae30-c9dcb98aa309",
     "data": [
       {
-        "text": "You\u0027re a clever bot",
+        "text": "You are very nice",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0
+  },
+  {
+    "id": "35082b94-608a-4922-bd5c-d563463e9bc3",
+    "data": [
+      {
+        "text": "I see you are great!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
   }
 ]

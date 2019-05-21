@@ -1,30 +1,81 @@
 [
   {
-    "id": "1302329e-54ca-4b06-8d67-f96dadee3b47",
+    "id": "3787257d-1b77-4b82-b1a7-5be1aa41c5d5",
     "data": [
       {
-        "text": "What to do to survive?",
+        "text": "what makes surviving most possible?",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 1
+    "count": 0,
+    "updated": 0
   },
   {
-    "id": "e0ec820c-f9ba-4461-9662-beb9c91927d7",
+    "id": "d6bf9eb5-1627-4b2f-b3da-5d9d4138581b",
     "data": [
       {
-        "text": "Can I get chance of survival ",
+        "text": "what should i do to survive",
         "userDefined": false
-      },
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "47c1eaef-51fe-4c05-b81e-abef61877ad0",
+    "data": [
       {
-        "text": "1",
-        "alias": "number",
-        "meta": "@sys.number",
+        "text": "who has the biggest probabilty of survival",
         "userDefined": false
-      },
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "617faa41-6a50-4b40-a349-d03e4399c83d",
+    "data": [
       {
-        "text": "?",
+        "text": "what can I do to have higher chances?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1807bfb4-2125-4396-af61-d52ffd173a99",
+    "data": [
+      {
+        "text": "Who is most likely to survive on Titanic?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d6efbc94-b250-41bf-bc79-8b331fab5184",
+    "data": [
+      {
+        "text": "for what age is the highest probability?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "14711b6c-c4c0-4e70-9084-3ed1020b556d",
+    "data": [
+      {
+        "text": "who has the biggest chance of survival",
         "userDefined": false
       }
     ],
@@ -55,6 +106,18 @@
     "updated": 0
   },
   {
+    "id": "e7ad85b9-eed5-4dda-a10f-a7a4b43e7864",
+    "data": [
+      {
+        "text": "I want to die",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
     "id": "ed87ea16-7604-42ff-9b7d-8cca28348f37",
     "data": [
       {
@@ -66,10 +129,22 @@
     "count": 0
   },
   {
-    "id": "d895aa2c-4b0f-4042-be2b-dde423771a7b",
+    "id": "e5d4b56b-14fd-449f-9c7e-67b28397010d",
     "data": [
       {
-        "text": "How to increase my prediction?",
+        "text": "who should i be to have the greatest chance to survive ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d8964156-16a5-49ab-a5d5-725ab168a4c3",
+    "data": [
+      {
+        "text": "What would increase my survival odds",
         "userDefined": false
       }
     ],
@@ -77,10 +152,21 @@
     "count": 0
   },
   {
-    "id": "2fc88949-7070-4be2-90d9-7e584b552279",
+    "id": "1302329e-54ca-4b06-8d67-f96dadee3b47",
     "data": [
       {
-        "text": "What can I change to increase the probability of survival?",
+        "text": "What to do to survive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "d895aa2c-4b0f-4042-be2b-dde423771a7b",
+    "data": [
+      {
+        "text": "How to increase my prediction?",
         "userDefined": false
       }
     ],
@@ -99,21 +185,10 @@
     "count": 0
   },
   {
-    "id": "56e8803a-7a74-4ba0-b151-fe861517ff83",
+    "id": "2fc88949-7070-4be2-90d9-7e584b552279",
     "data": [
       {
-        "text": "How to survive?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "d8964156-16a5-49ab-a5d5-725ab168a4c3",
-    "data": [
-      {
-        "text": "What would increase my survival odds",
+        "text": "What can I change to increase the probability of survival?",
         "userDefined": false
       }
     ],
@@ -130,5 +205,62 @@
     ],
     "isTemplate": false,
     "count": 0
+  },
+  {
+    "id": "56e8803a-7a74-4ba0-b151-fe861517ff83",
+    "data": [
+      {
+        "text": "How to survive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9c8bd576-f149-4395-972f-89b1fac80f3a",
+    "data": [
+      {
+        "text": "best survival chance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "864d8b0c-21e3-46ff-8adb-6d82207a9d7e",
+    "data": [
+      {
+        "text": "How can I improve my chances?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e0ec820c-f9ba-4461-9662-beb9c91927d7",
+    "data": [
+      {
+        "text": "Can I get chance of survival ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
   }
 ]

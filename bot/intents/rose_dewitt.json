@@ -6,7 +6,13 @@
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "being_rose",
+          "parameters": {},
+          "lifespan": 8
+        }
+      ],
       "parameters": [],
       "messages": [
         {

@@ -11,32 +11,21 @@
     "count": 0
   },
   {
-    "id": "b4aa5472-1970-4e1e-9100-840ca5991d68",
-    "data": [
-      {
-        "text": "What percentage of people survived the catastrophe?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "6b930095-0b81-4018-90d9-d817ef7d7cab",
-    "data": [
-      {
-        "text": "How many people died on the Titanic?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
     "id": "4210fd72-ab03-41fd-8774-d10134212324",
     "data": [
       {
         "text": "What percentage of passengers died?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b4aa5472-1970-4e1e-9100-840ca5991d68",
+    "data": [
+      {
+        "text": "What percentage of people survived the catastrophe?",
         "userDefined": false
       }
     ],
@@ -70,6 +59,17 @@
     "data": [
       {
         "text": "How many passengers survive the disaster?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6b930095-0b81-4018-90d9-d817ef7d7cab",
+    "data": [
+      {
+        "text": "How many people died on the Titanic?",
         "userDefined": false
       }
     ],

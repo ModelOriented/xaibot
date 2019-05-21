@@ -1,5 +1,16 @@
 [
   {
+    "id": "78279c1d-2ffc-4419-9282-014b2cc35eff",
+    "data": [
+      {
+        "text": "How is this plot created?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
     "id": "25316fab-e85b-40da-b576-5075ef7a8503",
     "data": [
       {
@@ -15,17 +26,6 @@
     "data": [
       {
         "text": "How are these calculated?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "78279c1d-2ffc-4419-9282-014b2cc35eff",
-    "data": [
-      {
-        "text": "How is this plot created?",
         "userDefined": false
       }
     ],

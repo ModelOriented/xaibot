@@ -1,9 +1,32 @@
 [
   {
-    "id": "5510ab55-6bc5-412e-b226-ef33a64c2150",
+    "id": "84fbc983-aea5-4f62-808d-2571ac2b6e92",
     "data": [
       {
-        "text": "Start a new conversation",
+        "text": "Reset my information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5f164342-eccd-410d-ab76-3d1c0b7b1377",
+    "data": [
+      {
+        "text": "Start again",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "07ce6f90-c460-41aa-955d-7766e4903d3f",
+    "data": [
+      {
+        "text": "Let\u0027s make a new chat",
         "userDefined": false
       }
     ],
@@ -22,153 +45,10 @@
     "count": 0
   },
   {
-    "id": "5f164342-eccd-410d-ab76-3d1c0b7b1377",
-    "data": [
-      {
-        "text": "Start again",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "07ce6f90-c460-41aa-955d-7766e4903d3f",
-    "data": [
-      {
-        "text": "Let\u0027s make a new chat",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "f9a680b3-ad33-47ac-a6ed-594e6a36fe49",
-    "data": [
-      {
-        "text": "New conversation",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
     "id": "e314da4b-5bb8-44d2-9f3f-66d86a79ed16",
     "data": [
       {
         "text": "Can we start again?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "25d50e3b-b167-46d5-a741-293f7280c814",
-    "data": [
-      {
-        "text": "I want to start from the beginning",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "cf4770d5-12fe-4130-ab35-14313345f486",
-    "data": [
-      {
-        "text": "Reset the data",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "546e78c8-ab2e-4b09-9de9-65fb27dbaaeb",
-    "data": [
-      {
-        "text": "Let\u0027s restart this conversation",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "2f13cacb-1b43-4048-b33e-7150868a21dc",
-    "data": [
-      {
-        "text": "Let\u0027s start it all over",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "be700264-3b66-4de1-9896-abccb6e87d73",
-    "data": [
-      {
-        "text": "Restart",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "fc9f0624-d74a-43cc-85c8-5689040dae3b",
-    "data": [
-      {
-        "text": "Reset",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 1
-  },
-  {
-    "id": "4a59f61c-9a77-4f47-88c9-fe72e4c72f7f",
-    "data": [
-      {
-        "text": "I want to reset",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "361a282d-6580-45de-a8c8-25fb04870ce8",
-    "data": [
-      {
-        "text": "I want to restart",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "cf97a965-fd3d-4e16-b482-dee84964777e",
-    "data": [
-      {
-        "text": "I want to start again",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "ec632d32-7a4c-48b5-9c45-9ffc076b44ab",
-    "data": [
-      {
-        "text": "Let\u0027s start again",
         "userDefined": false
       }
     ],
@@ -187,10 +67,142 @@
     "count": 0
   },
   {
+    "id": "be700264-3b66-4de1-9896-abccb6e87d73",
+    "data": [
+      {
+        "text": "Restart",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5510ab55-6bc5-412e-b226-ef33a64c2150",
+    "data": [
+      {
+        "text": "Start a new conversation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f9a680b3-ad33-47ac-a6ed-594e6a36fe49",
+    "data": [
+      {
+        "text": "New conversation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "25d50e3b-b167-46d5-a741-293f7280c814",
+    "data": [
+      {
+        "text": "I want to start from the beginning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ec632d32-7a4c-48b5-9c45-9ffc076b44ab",
+    "data": [
+      {
+        "text": "Let\u0027s start again",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4a59f61c-9a77-4f47-88c9-fe72e4c72f7f",
+    "data": [
+      {
+        "text": "I want to reset",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cf4770d5-12fe-4130-ab35-14313345f486",
+    "data": [
+      {
+        "text": "Reset the data",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fc9f0624-d74a-43cc-85c8-5689040dae3b",
+    "data": [
+      {
+        "text": "Reset",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "cf97a965-fd3d-4e16-b482-dee84964777e",
+    "data": [
+      {
+        "text": "I want to start again",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2f13cacb-1b43-4048-b33e-7150868a21dc",
+    "data": [
+      {
+        "text": "Let\u0027s start it all over",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "546e78c8-ab2e-4b09-9de9-65fb27dbaaeb",
+    "data": [
+      {
+        "text": "Let\u0027s restart this conversation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
     "id": "194dd336-4f55-476a-96b8-927e8c020d10",
     "data": [
       {
         "text": "Let\u0027s start from scratch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "361a282d-6580-45de-a8c8-25fb04870ce8",
+    "data": [
+      {
+        "text": "I want to restart",
         "userDefined": false
       }
     ],

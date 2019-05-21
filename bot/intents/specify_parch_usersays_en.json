@@ -1,61 +1,9 @@
 [
   {
-    "id": "2881a892-fdf7-4e80-a0e8-30d85adb495c",
-    "data": [
-      {
-        "text": "5",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "720a1a40-5fa3-4e32-872d-86e8fcb7812d",
-    "data": [
-      {
-        "text": "4",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
     "id": "f4c30f79-24cb-4196-be23-f21fbfbe2f1e",
     "data": [
       {
         "text": "3",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "e0d25e6c-5f2f-4c95-8895-cead4238051a",
-    "data": [
-      {
-        "text": "zero",
-        "alias": "number",
-        "meta": "@sys.number",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0
-  },
-  {
-    "id": "92731c8b-50a3-4bb5-9d72-fdb0fdcb6b65",
-    "data": [
-      {
-        "text": "0",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": false
@@ -78,6 +26,45 @@
     "count": 0
   },
   {
+    "id": "29eb6018-3a71-40d7-a55c-29c2be763b9b",
+    "data": [
+      {
+        "text": "one",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e0d25e6c-5f2f-4c95-8895-cead4238051a",
+    "data": [
+      {
+        "text": "zero",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2881a892-fdf7-4e80-a0e8-30d85adb495c",
+    "data": [
+      {
+        "text": "5",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
     "id": "be7b6dee-693f-4d22-85b0-ef001fcf18f9",
     "data": [
       {
@@ -91,10 +78,23 @@
     "count": 0
   },
   {
-    "id": "29eb6018-3a71-40d7-a55c-29c2be763b9b",
+    "id": "92731c8b-50a3-4bb5-9d72-fdb0fdcb6b65",
     "data": [
       {
-        "text": "one",
+        "text": "0",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "720a1a40-5fa3-4e32-872d-86e8fcb7812d",
+    "data": [
+      {
+        "text": "4",
         "alias": "number",
         "meta": "@sys.number",
         "userDefined": false
