@@ -26,3 +26,5 @@ Find a demo here: http://54.154.190.83:8787/__swagger__/
 ## Demo
 
 ![xaibot.gif](xaibot.gif)
+
+![xaibot2.gif](xaibot2.gif)
