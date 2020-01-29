@@ -21,4 +21,4 @@ pmodel$run(host = "0.0.0.0", port = 8787)
 
 ## Try it out
 
-Find a demo here: http://52.31.27.158:8787/__swagger__/
+Find a demo here: http://54.154.190.83:8787/__swagger__/
