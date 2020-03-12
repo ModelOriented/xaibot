@@ -28,3 +28,13 @@ Find a demo here: http://54.154.190.83:8787/__swagger__/
 ![xaibot.gif](xaibot.gif)
 
 ![xaibot2.gif](xaibot2.gif)
+
+
+# xaibot-covid
+
+```
+library("plumber")
+pmodel <- plumb("covid19.R")
+pmodel$run(host = "0.0.0.0", port = 8787)
+```
+

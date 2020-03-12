@@ -1,21 +1,23 @@
 library("plumber")
 library("DALEX")
 library("ingredients")
+library("ggplot2")
 library("iBreakDown")
 library("randomForest")
+library("gbm")
 
 get_observation <- function(country = "X", gender = "X", age = "X") {
   country_ok <- c("China", "Other")
   gender_ok <- c("female", "male")
 
   new_passanger <- data.frame(
-    class = factor("Other", levels = country_ok),
+    country2 = factor("Other", levels = country_ok),
     gender = factor("male", levels = gender_ok),
     age = 50
   )
   subtitle = ""
-  if (country != "X" & country %in% class_ok) {
-    new_passanger$country <- factor(country, levels = country_ok)
+  if (country != "X" & country %in% country_ok) {
+    new_passanger$country2 <- factor(country, levels = country_ok)
     subtitle <- paste(subtitle, "  country:", country)
   }
   if (gender != "X" & gender %in% gender_ok) {
@@ -72,17 +74,17 @@ function(req, country = "X", gender = "X", age = "X") {
 
   load("sumodelcovid.rda")
   
-  order <- c("class", "age", "gender", "fare", "sibsp", "parch", "embarked")
+  order <- c("age", "gender", "country2")
   order <- intersect(order, c(strsplit(subtitle, split = "[^A-Za-z0-9]")[[1]]))
-  if (length(order) < 1)  order <- "age"
+  if (length(order) < 1)  order <- c("age")
   sp_rf <- break_down(sumodelcovid, new_case,
                       order = order)
-  sp_rf[nrow(sp_rf) - 1,"contribution"] = sp_rf[nrow(sp_rf) - 1,"contribution"] + sp_rf[nrow(sp_rf),"cummulative"] - sp_rf[nrow(sp_rf) - 1,"cummulative"]
-  sp_rf[nrow(sp_rf) - 1,"cummulative"] = sp_rf[nrow(sp_rf),"cummulative"]
+  sp_rf[nrow(sp_rf) - 1,"contribution"] = sp_rf[nrow(sp_rf) - 1,"contribution"] + sp_rf[nrow(sp_rf),"cumulative"] - sp_rf[nrow(sp_rf) - 1,"cumulative"]
+  sp_rf[nrow(sp_rf) - 1,"cumulative"] = sp_rf[nrow(sp_rf),"cumulative"]
   pr <- predict(sumodelcovid, new_case)
   title = paste0("Your chances of survival are ", round(pr, 3))
   subtitle = "And here is how I get it"
-  print(plot(sp_rf) + ingredients::theme_drwhy() + facet_null() +
+  print(plot(sp_rf) + DALEX::theme_drwhy() + facet_null() +
           theme(legend.position = "none") + 
           ggtitle(title, subtitle))
 }
@@ -104,8 +106,10 @@ function(req, variable = "age", country = "X", gender = "X", age = "X") {
   subtitle <- tmp$subtitle
 
   load("sumodelcovid.rda")
+  if (variable == "country")
+    variable = "country2"
   
-  if (!(variable %in% c("age", "country", "gender"))) {
+  if (!(variable %in% c("age", "country2", "gender"))) {
     variable = "age"
   }
 
