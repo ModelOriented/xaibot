@@ -115,7 +115,7 @@ function(req, variable = "age", country = "X", gender = "X", age = "X") {
 
   if (variable %in% c("age")) {
     pr <- predict(sumodelcovid, new_case)
-    title = paste0("Your chances of survival for ", variable, " = ", new_passanger[[variable]], " are ", round(pr, 3))
+    title = paste0("Your chances of survival for ", variable, " = ", new_case[[variable]], " are ", round(pr, 3))
     subtitle = paste0("But keeping everything else constant \nchances for different values of ", variable, " are...")
     grids = list()
     grids[[variable]] = sort(unique(sumodelcovid$data[,variable]))
